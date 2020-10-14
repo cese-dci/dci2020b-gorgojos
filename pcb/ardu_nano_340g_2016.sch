@@ -19,8 +19,16 @@ U 1 1 5F862911
 P 1100 1700
 F 0 "J1" H 1157 2167 50  0000 C CNN
 F 1 "USB_B_Mini" H 1157 2076 50  0000 C CNN
-F 2 "" H 1250 1650 50  0001 C CNN
-F 3 "~" H 1250 1650 50  0001 C CNN
+F 2 "digikey-footprints:USB_Mini_B_Female_UX60-MB-5ST" H 1250 1650 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UX%20Series.pdf" H 1250 1650 50  0001 C CNN
+F 4 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UX%20Series.pdf" H 1100 1700 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/UX60-MB-5ST/597535?s=N4IgTCBcDaIBJgJwFZEGEAqBaAcgERAF0BfIA" H 1100 1700 50  0001 C CNN "DK_Detail_Page"
+F 6 "CONN RCPT USB2.0 MINI B SMD R/A" H 1100 1700 50  0001 C CNN "Description"
+F 7 "H2959CT-ND" H 1100 1700 50  0001 C CNN "Digi-Key_PN"
+F 8 "USB, DVI, HDMI Connectors" H 1100 1700 50  0001 C CNN "Family"
+F 9 "UX60-MB-5ST" H 1100 1700 50  0001 C CNN "MPN"
+F 10 "Hirose Electric Co Ltd" H 1100 1700 50  0001 C CNN "Manufacturer"
+F 11 "Active" H 1100 1700 50  0001 C CNN "Status"
 	1    1100 1700
 	1    0    0    -1  
 $EndComp
@@ -32,6 +40,10 @@ F 0 "U3" H 1600 4092 50  0000 C CNN
 F 1 "LM1117-5.0" H 1600 4001 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 1600 3850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 1600 3850 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LM1117MP-5-0-NOPB/363590" H 1600 3850 50  0001 C CNN "DK_Detail_Page"
+F 5 "LM1117MP-5.0/NOPBCT-ND" H 1600 3850 50  0001 C CNN "Digi-Key_PN"
+F 6 "LM1117MP-5.0/NOPB" H 1600 3850 50  0001 C CNN "MPN"
+F 7 "Texas Instruments" H 1600 3850 50  0001 C CNN "Manufacturer"
 	1    1600 3850
 	1    0    0    -1  
 $EndComp
@@ -93,7 +105,11 @@ P 3500 5850
 F 0 "D5" H 3500 5633 50  0000 C CNN
 F 1 "D_Schottky" H 3500 5724 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3500 5850 50  0001 C CNN
-F 3 "~" H 3500 5850 50  0001 C CNN
+F 3 "https://www.vishay.com/ppg?85680" H 3500 5850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Others_Vishay-Intertech_SD101CWS-HE3-08_Vishay-Intertech-SD101CWS-HE3-08_C241955.html" H 3500 5850 50  0001 C CNN "DK_Detail_Page"
+F 5 "C241955" H 3500 5850 50  0001 C CNN "Digi-Key_PN"
+F 6 "SD101CWS" H 3500 5850 50  0001 C CNN "MPN"
+F 7 "Vishay" H 3500 5850 50  0001 C CNN "Manufacturer"
 	1    3500 5850
 	-1   0    0    1   
 $EndComp
@@ -140,9 +156,13 @@ L Device:C C4
 U 1 1 5F8B89AB
 P 3300 3950
 F 0 "C4" H 3415 3996 50  0000 L CNN
-F 1 "C" H 3415 3905 50  0000 L CNN
+F 1 "100nF" H 3415 3905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3338 3800 50  0001 C CNN
-F 3 "~" H 3300 3950 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL21B104KBFXPJ.do" H 3300 3950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBFXPJE/11487741" H 3300 3950 50  0001 C CNN "DK_Detail_Page"
+F 5 "1276-CL21B104KBFXPJECT-ND" H 3300 3950 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL21B104KBFXPJE" H 3300 3950 50  0001 C CNN "MPN"
+F 7 "SAMSUNG ELECTRO-MECHANICS" H 3300 3950 50  0001 C CNN "Manufacturer"
 	1    3300 3950
 	1    0    0    -1  
 $EndComp
@@ -151,9 +171,13 @@ L Device:CP C5
 U 1 1 5F8B9160
 P 3800 3950
 F 0 "C5" H 3918 3996 50  0000 L CNN
-F 1 "CP" H 3918 3905 50  0000 L CNN
+F 1 "10uF" H 3918 3905 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 3838 3800 50  0001 C CNN
-F 3 "~" H 3800 3950 50  0001 C CNN
+F 3 "https://www.avx.com/products/polymer/hv-tcj-series/" H 3800 3950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Others_AVX_TCJA106M016R0200_AVX-TCJA106M016R0200_C194304.html" H 3800 3950 50  0001 C CNN "DK_Detail_Page"
+F 5 "C194304" H 3800 3950 50  0001 C CNN "Digi-Key_PN"
+F 6 "https://lcsc.com/product-detail/Others_AVX_TCJA106M016R0200_AVX-TCJA106M016R0200_C194304.html" H 3800 3950 50  0001 C CNN "MPN"
+F 7 "AVX" H 3800 3950 50  0001 C CNN "Manufacturer"
 	1    3800 3950
 	1    0    0    -1  
 $EndComp
@@ -206,9 +230,13 @@ L Device:C C2
 U 1 1 5F8D7D00
 P 2300 3950
 F 0 "C2" H 2415 3996 50  0000 L CNN
-F 1 "C" H 2415 3905 50  0000 L CNN
+F 1 "100nF" H 2415 3905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2338 3800 50  0001 C CNN
-F 3 "~" H 2300 3950 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL21B104KBFXPJ.do" H 2300 3950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBFXPJE/11487741" H 2300 3950 50  0001 C CNN "DK_Detail_Page"
+F 5 "1276-CL21B104KBFXPJECT-ND" H 2300 3950 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL21B104KBFXPJE" H 2300 3950 50  0001 C CNN "MPN"
+F 7 "SAMSUNG ELECTRO-MECHANICS" H 2300 3950 50  0001 C CNN "Manufacturer"
 	1    2300 3950
 	1    0    0    -1  
 $EndComp
@@ -217,9 +245,13 @@ L Device:CP C3
 U 1 1 5F8D7D06
 P 2800 3950
 F 0 "C3" H 2918 3996 50  0000 L CNN
-F 1 "CP" H 2918 3905 50  0000 L CNN
+F 1 "10uF" H 2918 3905 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 2838 3800 50  0001 C CNN
-F 3 "~" H 2800 3950 50  0001 C CNN
+F 3 "https://www.avx.com/products/polymer/hv-tcj-series/" H 2800 3950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Others_AVX_TCJA106M016R0200_AVX-TCJA106M016R0200_C194304.html" H 2800 3950 50  0001 C CNN "DK_Detail_Page"
+F 5 "C194304" H 2800 3950 50  0001 C CNN "Digi-Key_PN"
+F 6 "https://lcsc.com/product-detail/Others_AVX_TCJA106M016R0200_AVX-TCJA106M016R0200_C194304.html" H 2800 3950 50  0001 C CNN "MPN"
+F 7 "AVX" H 2800 3950 50  0001 C CNN "Manufacturer"
 	1    2800 3950
 	1    0    0    -1  
 $EndComp
@@ -260,9 +292,13 @@ L Device:Resonator Y2
 U 1 1 5F873287
 P 1850 2100
 F 0 "Y2" V 2100 1900 50  0000 L CNN
-F 1 "Resonator" V 2200 1900 50  0000 L CNN
-F 2 "" H 1825 2100 50  0001 C CNN
-F 3 "~" H 1825 2100 50  0001 C CNN
+F 1 "12Mhz Resonator" V 2200 1900 50  0000 L CNN
+F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering" H 1825 2100 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdetail?partno=CSTNE12M0G550000R0" H 1825 2100 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/murata-electronics/CSTNE12M0G550000R0/490-17943-1-ND/8747751" H 1850 2100 50  0001 C CNN "DK_Detail_Page"
+F 5 "490-17943-1-ND" H 1850 2100 50  0001 C CNN "Digi-Key_PN"
+F 6 "CSTNE12M0G550000R0" H 1850 2100 50  0001 C CNN "MPN"
+F 7 "Murata Electronics" H 1850 2100 50  0001 C CNN "Manufacturer"
 	1    1850 2100
 	0    1    1    0   
 $EndComp
@@ -301,7 +337,7 @@ F 5 "ATMEGA328P-AU" H 5100 3200 60  0001 L CNN "MPN"
 F 6 "Integrated Circuits (ICs)" H 5100 3300 60  0001 L CNN "Category"
 F 7 "Embedded - Microcontrollers" H 5100 3400 60  0001 L CNN "Family"
 F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 5100 3500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/ATMEGA328P-AU/ATMEGA328P-AU-ND/1832260" H 5100 3600 60  0001 L CNN "DK_Detail_Page"
+F 9 "https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA328P-AU/1832260?s=N4IgTCBcDaIIIBUCyBRA4nAzGAHABQFo4BVAgOQBEQBdAXyA" H 5100 3600 60  0001 L CNN "DK_Detail_Page"
 F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 5100 3700 60  0001 L CNN "Description"
 F 11 "Microchip Technology" H 5100 3800 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 5100 3900 60  0001 L CNN "Status"
@@ -376,9 +412,13 @@ L Device:C C6
 U 1 1 5F8F071A
 P 6250 4100
 F 0 "C6" H 6365 4146 50  0000 L CNN
-F 1 "C" H 6365 4055 50  0000 L CNN
+F 1 "100nF" H 6365 4055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6288 3950 50  0001 C CNN
-F 3 "~" H 6250 4100 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL21B104KBFXPJ.do" H 6250 4100 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBFXPJE/11487741" H 6250 4100 50  0001 C CNN "DK_Detail_Page"
+F 5 "1276-CL21B104KBFXPJECT-ND" H 6250 4100 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL21B104KBFXPJE" H 6250 4100 50  0001 C CNN "MPN"
+F 7 "SAMSUNG ELECTRO-MECHANICS" H 6250 4100 50  0001 C CNN "Manufacturer"
 	1    6250 4100
 	1    0    0    -1  
 $EndComp
@@ -419,9 +459,13 @@ L Device:Resonator Y1
 U 1 1 5F90EEE1
 P 6350 1650
 F 0 "Y1" V 6600 1450 50  0000 L CNN
-F 1 "Resonator" V 6700 1450 50  0000 L CNN
-F 2 "" H 6325 1650 50  0001 C CNN
-F 3 "~" H 6325 1650 50  0001 C CNN
+F 1 "16MHz Resonator" V 6700 1450 50  0000 L CNN
+F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering" H 6325 1650 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdetail?cate=cgsubResonators&partno=CSTNE16M0V530000R0" H 6325 1650 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/murata-electronics/CSTNE16M0V530000R0/490-17948-1-ND/8747756" H 6350 1650 50  0001 C CNN "DK_Detail_Page"
+F 5 "490-17948-1-ND" H 6350 1650 50  0001 C CNN "Digi-Key_PN"
+F 6 "CSTNE16M0V530000R0" H 6350 1650 50  0001 C CNN "MPN"
+F 7 "Murata Electronics" H 6350 1650 50  0001 C CNN "Manufacturer"
 	1    6350 1650
 	0    -1   -1   0   
 $EndComp
@@ -456,9 +500,13 @@ L Device:C C1
 U 1 1 5F8A28A1
 P 3350 2200
 F 0 "C1" V 3098 2200 50  0000 C CNN
-F 1 "C" V 3189 2200 50  0000 C CNN
+F 1 "100nF" V 3189 2200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3388 2050 50  0001 C CNN
-F 3 "~" H 3350 2200 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL21B104KBFXPJ.do" H 3350 2200 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBFXPJE/11487741" H 3350 2200 50  0001 C CNN "DK_Detail_Page"
+F 5 "1276-CL21B104KBFXPJECT-ND" H 3350 2200 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL21B104KBFXPJE" H 3350 2200 50  0001 C CNN "MPN"
+F 7 "SAMSUNG ELECTRO-MECHANICS" H 3350 2200 50  0001 C CNN "Manufacturer"
 	1    3350 2200
 	0    1    1    0   
 $EndComp
@@ -480,7 +528,11 @@ P 3350 1400
 F 0 "R5" V 3143 1400 50  0000 C CNN
 F 1 "R" V 3234 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3280 1400 50  0001 C CNN
-F 3 "~" H 3350 1400 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3350 1400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 3350 1400 50  0001 C CNN "DK_Detail_Page"
+F 5 "RNCP0805FTD1K00CT-ND" H 3350 1400 50  0001 C CNN "Digi-Key_PN"
+F 6 "RNCP0805FTD1K00" H 3350 1400 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 3350 1400 50  0001 C CNN "Manufacturer"
 	1    3350 1400
 	0    1    1    0   
 $EndComp
@@ -491,7 +543,11 @@ P 3350 1500
 F 0 "R6" V 3143 1500 50  0000 C CNN
 F 1 "R" V 3234 1500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3280 1500 50  0001 C CNN
-F 3 "~" H 3350 1500 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3350 1500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 3350 1500 50  0001 C CNN "DK_Detail_Page"
+F 5 "RNCP0805FTD1K00CT-ND" H 3350 1500 50  0001 C CNN "Digi-Key_PN"
+F 6 "RNCP0805FTD1K00" H 3350 1500 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 3350 1500 50  0001 C CNN "Manufacturer"
 	1    3350 1500
 	0    -1   -1   0   
 $EndComp
@@ -605,7 +661,11 @@ P 8350 4400
 F 0 "J2" H 8300 5300 50  0000 L CNN
 F 1 "Conn_01x15" H 8100 5200 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 8350 4400 50  0001 C CNN
-F 3 "~" H 8350 4400 50  0001 C CNN
+F 3 "https://www.samtec.com/products/tsw-115-07-t-s-015" H 8350 4400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samtec-inc/TSW-115-07-T-S/1101609" H 8350 4400 50  0001 C CNN "DK_Detail_Page"
+F 5 "SAM1035-15-ND" H 8350 4400 50  0001 C CNN "Digi-Key_PN"
+F 6 "TSW-115-07-T-S" H 8350 4400 50  0001 C CNN "MPN"
+F 7 "Samtec Inc." H 8350 4400 50  0001 C CNN "Manufacturer"
 	1    8350 4400
 	1    0    0    -1  
 $EndComp
@@ -616,7 +676,11 @@ P 9300 4400
 F 0 "J3" H 9300 5300 50  0000 C CNN
 F 1 "Conn_01x15" H 9300 5200 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 9300 4400 50  0001 C CNN
-F 3 "~" H 9300 4400 50  0001 C CNN
+F 3 "https://www.samtec.com/products/tsw-115-07-t-s-015" H 9300 4400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samtec-inc/TSW-115-07-T-S/1101609" H 9300 4400 50  0001 C CNN "DK_Detail_Page"
+F 5 "SAM1035-15-ND" H 9300 4400 50  0001 C CNN "Digi-Key_PN"
+F 6 "TSW-115-07-T-S" H 9300 4400 50  0001 C CNN "MPN"
+F 7 "Samtec Inc." H 9300 4400 50  0001 C CNN "Manufacturer"
 	1    9300 4400
 	-1   0    0    -1  
 $EndComp
@@ -660,7 +724,11 @@ P 7900 1750
 F 0 "D1" V 7939 1632 50  0000 R CNN
 F 1 "LED ROJO" V 7848 1632 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 1750 50  0001 C CNN
-F 3 "~" H 7900 1750 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/1371624/0/0/1/150080ss75000.html" H 7900 1750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080SS75000/4489921" H 7900 1750 50  0001 C CNN "DK_Detail_Page"
+F 5 "732-4985-1-ND" H 7900 1750 50  0001 C CNN "Digi-Key_PN"
+F 6 "150080SS75000" H 7900 1750 50  0001 C CNN "MPN"
+F 7 "Würth Elektronik" H 7900 1750 50  0001 C CNN "Manufacturer"
 	1    7900 1750
 	0    -1   -1   0   
 $EndComp
@@ -670,8 +738,12 @@ U 1 1 5FC2C312
 P 7900 1300
 F 0 "R1" H 7970 1346 50  0000 L CNN
 F 1 "R" H 7970 1255 50  0000 L CNN
-F 2 "" V 7830 1300 50  0001 C CNN
-F 3 "~" H 7900 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7830 1300 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 7900 1300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 7900 1300 50  0001 C CNN "DK_Detail_Page"
+F 5 "RNCP0805FTD1K00CT-ND" H 7900 1300 50  0001 C CNN "Digi-Key_PN"
+F 6 "RNCP0805FTD1K00" H 7900 1300 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 7900 1300 50  0001 C CNN "Manufacturer"
 	1    7900 1300
 	1    0    0    -1  
 $EndComp
@@ -700,8 +772,12 @@ U 1 1 5FC3579F
 P 8650 1300
 F 0 "R2" H 8720 1346 50  0000 L CNN
 F 1 "R" H 8720 1255 50  0000 L CNN
-F 2 "" V 8580 1300 50  0001 C CNN
-F 3 "~" H 8650 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8580 1300 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 8650 1300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 8650 1300 50  0001 C CNN "DK_Detail_Page"
+F 5 "RNCP0805FTD1K00CT-ND" H 8650 1300 50  0001 C CNN "Digi-Key_PN"
+F 6 "RNCP0805FTD1K00" H 8650 1300 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 8650 1300 50  0001 C CNN "Manufacturer"
 	1    8650 1300
 	1    0    0    -1  
 $EndComp
@@ -712,7 +788,11 @@ P 8650 1750
 F 0 "D2" V 8689 1632 50  0000 R CNN
 F 1 "LED VERDE" V 8598 1632 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8650 1750 50  0001 C CNN
-F 3 "~" H 8650 1750 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/1371625/0/0/1/150080vs75000.html" H 8650 1750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080VS75000/4489924" H 8650 1750 50  0001 C CNN "DK_Detail_Page"
+F 5 "732-4986-1-ND" H 8650 1750 50  0001 C CNN "Digi-Key_PN"
+F 6 "150080VS75000" H 8650 1750 50  0001 C CNN "MPN"
+F 7 "Würth Elektronik" H 8650 1750 50  0001 C CNN "Manufacturer"
 	1    8650 1750
 	0    -1   -1   0   
 $EndComp
@@ -739,8 +819,12 @@ U 1 1 5F87915A
 P 9400 1300
 F 0 "R3" H 9470 1346 50  0000 L CNN
 F 1 "R" H 9470 1255 50  0000 L CNN
-F 2 "" V 9330 1300 50  0001 C CNN
-F 3 "~" H 9400 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9330 1300 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 9400 1300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 9400 1300 50  0001 C CNN "DK_Detail_Page"
+F 5 "RNCP0805FTD1K00CT-ND" H 9400 1300 50  0001 C CNN "Digi-Key_PN"
+F 6 "RNCP0805FTD1K00" H 9400 1300 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 9400 1300 50  0001 C CNN "Manufacturer"
 	1    9400 1300
 	1    0    0    -1  
 $EndComp
@@ -762,7 +846,11 @@ P 9400 1750
 F 0 "D3" V 9439 1632 50  0000 R CNN
 F 1 "LED VERDE" V 9348 1632 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9400 1750 50  0001 C CNN
-F 3 "~" H 9400 1750 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/1371625/0/0/1/150080vs75000.html" H 9400 1750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080VS75000/4489924" H 9400 1750 50  0001 C CNN "DK_Detail_Page"
+F 5 "732-4986-1-ND" H 9400 1750 50  0001 C CNN "Digi-Key_PN"
+F 6 "150080VS75000" H 9400 1750 50  0001 C CNN "MPN"
+F 7 "Würth Elektronik" H 9400 1750 50  0001 C CNN "Manufacturer"
 	1    9400 1750
 	0    -1   -1   0   
 $EndComp
@@ -774,8 +862,12 @@ U 1 1 5FC6E594
 P 10150 1300
 F 0 "R4" H 10220 1346 50  0000 L CNN
 F 1 "R" H 10220 1255 50  0000 L CNN
-F 2 "" V 10080 1300 50  0001 C CNN
-F 3 "~" H 10150 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10080 1300 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 10150 1300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 10150 1300 50  0001 C CNN "DK_Detail_Page"
+F 5 "RNCP0805FTD1K00CT-ND" H 10150 1300 50  0001 C CNN "Digi-Key_PN"
+F 6 "RNCP0805FTD1K00" H 10150 1300 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 10150 1300 50  0001 C CNN "Manufacturer"
 	1    10150 1300
 	1    0    0    -1  
 $EndComp
@@ -786,7 +878,11 @@ P 10150 1750
 F 0 "D4" V 10189 1632 50  0000 R CNN
 F 1 "LED AMARILLO" V 10098 1632 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10150 1750 50  0001 C CNN
-F 3 "~" H 10150 1750 50  0001 C CNN
+F 3 "~https://www.digikey.com/htmldatasheets/production/1371626/0/0/1/150080ys75000.html" H 10150 1750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080YS75000/4489927" H 10150 1750 50  0001 C CNN "DK_Detail_Page"
+F 5 "732-4987-1-ND" H 10150 1750 50  0001 C CNN "Digi-Key_PN"
+F 6 "150080YS75000" H 10150 1750 50  0001 C CNN "MPN"
+F 7 "Würth Elektronik" H 10150 1750 50  0001 C CNN "Manufacturer"
 	1    10150 1750
 	0    -1   -1   0   
 $EndComp
@@ -805,7 +901,11 @@ P 1450 6350
 F 0 "J4" H 1500 6667 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 1500 6576 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1450 6350 50  0001 C CNN
-F 3 "~" H 1450 6350 50  0001 C CNN
+F 3 "https://www.samtec.com/products/tsw" H 1450 6350 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samtec-inc/TSW-103-07-T-D/1101571" H 1450 6350 50  0001 C CNN "DK_Detail_Page"
+F 5 "SAM1034-03-ND" H 1450 6350 50  0001 C CNN "Digi-Key_PN"
+F 6 "TSW-103-07-T-D" H 1450 6350 50  0001 C CNN "MPN"
+F 7 "Samtec Inc." H 1450 6350 50  0001 C CNN "Manufacturer"
 	1    1450 6350
 	1    0    0    -1  
 $EndComp
@@ -1148,8 +1248,12 @@ U 1 1 5FB023C6
 P 5400 6050
 F 0 "R7" H 5470 6096 50  0000 L CNN
 F 1 "R" H 5470 6005 50  0000 L CNN
-F 2 "" V 5330 6050 50  0001 C CNN
-F 3 "~" H 5400 6050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5330 6050 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 5400 6050 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 5400 6050 50  0001 C CNN "DK_Detail_Page"
+F 5 "RNCP0805FTD1K00CT-ND" H 5400 6050 50  0001 C CNN "Digi-Key_PN"
+F 6 "RNCP0805FTD1K00" H 5400 6050 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 5400 6050 50  0001 C CNN "Manufacturer"
 	1    5400 6050
 	1    0    0    -1  
 $EndComp
@@ -1166,7 +1270,7 @@ F 5 "B3U-1000P" H 5200 6850 60  0001 L CNN "MPN"
 F 6 "Switches" H 5200 6950 60  0001 L CNN "Category"
 F 7 "Tactile Switches" H 5200 7050 60  0001 L CNN "Family"
 F 8 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 5200 7150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357" H 5200 7250 60  0001 L CNN "DK_Detail_Page"
+F 9 "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3U-1000P/1534338?s=N4IgTCBcDaIMoHUCMAGMKDCAVAtAOQBEQBdAXyA" H 5200 7250 60  0001 L CNN "DK_Detail_Page"
 F 10 "SWITCH TACTILE SPST-NO 0.05A 12V" H 5200 7350 60  0001 L CNN "Description"
 F 11 "Omron Electronics Inc-EMC Div" H 5200 7450 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 5200 7550 60  0001 L CNN "Status"
@@ -1318,7 +1422,11 @@ P 2650 1800
 F 0 "U1" H 2950 2500 50  0000 C CNN
 F 1 "CH340G-JEC" H 2950 2400 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2700 1250 50  0001 L CNN
-F 3 "http://www.datasheet5.com/pdf-local-2195953" H 2300 2600 50  0001 C CNN
+F 3 "https://www.electronicscomp.com/datasheet/ch340g-ic-datasheet.pdf" H 2300 2600 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH340G_C14267.html" H 2650 1800 50  0001 C CNN "DK_Detail_Page"
+F 5 "C14267" H 2650 1800 50  0001 C CNN "Digi-Key_PN"
+F 6 "CH340G" H 2650 1800 50  0001 C CNN "MPN"
+F 7 "WCH(Jiangsu Qin Heng)" H 2650 1800 50  0001 C CNN "Manufacturer"
 	1    2650 1800
 	1    0    0    -1  
 $EndComp
