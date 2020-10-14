@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri /home/juan/Documentos/sinc/Cursos/PCB/repo_tp/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri /home/juan/Documentos/sinc/Cursos/PCB/repo_tp/otros/CIAA-Z3R0-master/footprints.pretty)(options "")(descr ""))
+  (lib (name shapes3D)(type KiCad)(uri /home/juan/Documentos/sinc/Cursos/PCB/repo_tp/otros/CIAA-Z3R0-master/shapes3D)(options "")(descr ""))
+)
