@@ -6,15 +6,15 @@ encoding utf-8
 Sheet 1 1
 Title "ardu_nano_340g_2016"
 Date "2020-10-14"
-Rev "1.1"
+Rev "2.1"
 Comp "Autor: Juan Esteban Carrique <jecarrique@sinc.unl.edu.ar>"
 Comment1 "Revisor par: Alejandro Gorrin"
 Comment2 "Revisor Docente: Diego Brengi"
 Comment3 "Licencia: CC BY-NC-SA"
-Comment4 ""
+Comment4 "V2.1 Se agregó capacitor de filtrado de 3V3"
 $EndDescr
 $Comp
-L Connector:USB_B_Mini J1
+L ardu_nano_340g_2016-rescue:USB_B_Mini-Connector J1
 U 1 1 5F862911
 P 1100 1700
 F 0 "J1" H 1157 2167 50  0000 C CNN
@@ -101,16 +101,16 @@ $EndComp
 $Comp
 L Device:D_Schottky D5
 U 1 1 5F86F8A0
-P 3500 5850
-F 0 "D5" H 3500 5633 50  0000 C CNN
-F 1 "D_Schottky" H 3500 5724 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3500 5850 50  0001 C CNN
-F 3 "https://www.vishay.com/ppg?85680" H 3500 5850 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Others_Vishay-Intertech_SD101CWS-HE3-08_Vishay-Intertech-SD101CWS-HE3-08_C241955.html" H 3500 5850 50  0001 C CNN "DK_Detail_Page"
-F 5 "C241955" H 3500 5850 50  0001 C CNN "Digi-Key_PN"
-F 6 "SD101CWS" H 3500 5850 50  0001 C CNN "MPN"
-F 7 "Vishay" H 3500 5850 50  0001 C CNN "Manufacturer"
-	1    3500 5850
+P 3850 5850
+F 0 "D5" H 3850 5633 50  0000 C CNN
+F 1 "D_Schottky" H 3850 5724 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3850 5850 50  0001 C CNN
+F 3 "https://www.vishay.com/ppg?85680" H 3850 5850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Others_Vishay-Intertech_SD101CWS-HE3-08_Vishay-Intertech-SD101CWS-HE3-08_C241955.html" H 3850 5850 50  0001 C CNN "DK_Detail_Page"
+F 5 "C241955" H 3850 5850 50  0001 C CNN "Digi-Key_PN"
+F 6 "SD101CWS" H 3850 5850 50  0001 C CNN "MPN"
+F 7 "Vishay" H 3850 5850 50  0001 C CNN "Manufacturer"
+	1    3850 5850
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -133,154 +133,154 @@ Wire Wire Line
 $Comp
 L power:VBUS #PWR030
 U 1 1 5F8B3CF0
-P 3150 5750
-F 0 "#PWR030" H 3150 5600 50  0001 C CNN
-F 1 "VBUS" H 3165 5923 50  0000 C CNN
-F 2 "" H 3150 5750 50  0001 C CNN
-F 3 "" H 3150 5750 50  0001 C CNN
-	1    3150 5750
+P 3500 5750
+F 0 "#PWR030" H 3500 5600 50  0001 C CNN
+F 1 "VBUS" H 3515 5923 50  0000 C CNN
+F 2 "" H 3500 5750 50  0001 C CNN
+F 3 "" H 3500 5750 50  0001 C CNN
+	1    3500 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 5850 3150 5850
+	3700 5850 3500 5850
 Wire Wire Line
-	3150 5850 3150 5750
+	3500 5850 3500 5750
 Wire Wire Line
-	3650 5850 3850 5850
+	4000 5850 4200 5850
 Wire Wire Line
-	3850 5850 3850 5750
-Text Notes 3050 5400 0    50   ~ 0
+	4200 5850 4200 5750
+Text Notes 3400 5400 0    50   ~ 0
 AUTOSELECCION DE +5V
 $Comp
 L Device:C C4
 U 1 1 5F8B89AB
-P 3300 3950
-F 0 "C4" H 3415 3996 50  0000 L CNN
-F 1 "100nF" H 3415 3905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3338 3800 50  0001 C CNN
-F 3 "http://product.samsungsem.com/mlcc/CL21B104KBFXPJ.do" H 3300 3950 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBFXPJE/11487741" H 3300 3950 50  0001 C CNN "DK_Detail_Page"
-F 5 "1276-CL21B104KBFXPJECT-ND" H 3300 3950 50  0001 C CNN "Digi-Key_PN"
-F 6 "CL21B104KBFXPJE" H 3300 3950 50  0001 C CNN "MPN"
-F 7 "SAMSUNG ELECTRO-MECHANICS" H 3300 3950 50  0001 C CNN "Manufacturer"
-	1    3300 3950
+P 3500 3950
+F 0 "C4" H 3615 3996 50  0000 L CNN
+F 1 "100nF" H 3615 3905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3538 3800 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL21B104KBFXPJ.do" H 3500 3950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBFXPJE/11487741" H 3500 3950 50  0001 C CNN "DK_Detail_Page"
+F 5 "1276-CL21B104KBFXPJECT-ND" H 3500 3950 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL21B104KBFXPJE" H 3500 3950 50  0001 C CNN "MPN"
+F 7 "SAMSUNG ELECTRO-MECHANICS" H 3500 3950 50  0001 C CNN "Manufacturer"
+	1    3500 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP C5
 U 1 1 5F8B9160
-P 3800 3950
-F 0 "C5" H 3918 3996 50  0000 L CNN
-F 1 "10uF" H 3918 3905 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 3838 3800 50  0001 C CNN
-F 3 "https://www.avx.com/products/polymer/hv-tcj-series/" H 3800 3950 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Others_AVX_TCJA106M016R0200_AVX-TCJA106M016R0200_C194304.html" H 3800 3950 50  0001 C CNN "DK_Detail_Page"
-F 5 "C194304" H 3800 3950 50  0001 C CNN "Digi-Key_PN"
-F 6 "https://lcsc.com/product-detail/Others_AVX_TCJA106M016R0200_AVX-TCJA106M016R0200_C194304.html" H 3800 3950 50  0001 C CNN "MPN"
-F 7 "AVX" H 3800 3950 50  0001 C CNN "Manufacturer"
-	1    3800 3950
+P 4000 3950
+F 0 "C5" H 4118 3996 50  0000 L CNN
+F 1 "10uF" H 4118 3905 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 4038 3800 50  0001 C CNN
+F 3 "https://www.avx.com/products/polymer/hv-tcj-series/" H 4000 3950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Others_AVX_TCJA106M016R0200_AVX-TCJA106M016R0200_C194304.html" H 4000 3950 50  0001 C CNN "DK_Detail_Page"
+F 5 "C194304" H 4000 3950 50  0001 C CNN "Digi-Key_PN"
+F 6 "https://lcsc.com/product-detail/Others_AVX_TCJA106M016R0200_AVX-TCJA106M016R0200_C194304.html" H 4000 3950 50  0001 C CNN "MPN"
+F 7 "AVX" H 4000 3950 50  0001 C CNN "Manufacturer"
+	1    4000 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 3800 3800 3650
+	4000 3800 4000 3650
 Wire Wire Line
-	3300 3650 3300 3800
+	3500 3650 3500 3800
 Wire Wire Line
-	3800 4100 3800 4250
+	4000 4100 4000 4250
 Wire Wire Line
-	3300 4250 3300 4100
+	3500 4250 3500 4100
 $Comp
 L power:GND #PWR024
 U 1 1 5F8BBD82
-P 3550 4400
-F 0 "#PWR024" H 3550 4150 50  0001 C CNN
-F 1 "GND" H 3555 4227 50  0000 C CNN
-F 2 "" H 3550 4400 50  0001 C CNN
-F 3 "" H 3550 4400 50  0001 C CNN
-	1    3550 4400
+P 3750 4400
+F 0 "#PWR024" H 3750 4150 50  0001 C CNN
+F 1 "GND" H 3755 4227 50  0000 C CNN
+F 2 "" H 3750 4400 50  0001 C CNN
+F 3 "" H 3750 4400 50  0001 C CNN
+	1    3750 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 4250 3550 4250
+	3500 4250 3750 4250
 Wire Wire Line
-	3550 4400 3550 4250
-Connection ~ 3550 4250
+	3750 4400 3750 4250
+Connection ~ 3750 4250
 Wire Wire Line
-	3550 4250 3800 4250
+	3750 4250 4000 4250
 $Comp
 L power:VBUS #PWR016
 U 1 1 5F8BDFF4
-P 3550 3500
-F 0 "#PWR016" H 3550 3350 50  0001 C CNN
-F 1 "VBUS" H 3565 3673 50  0000 C CNN
-F 2 "" H 3550 3500 50  0001 C CNN
-F 3 "" H 3550 3500 50  0001 C CNN
-	1    3550 3500
+P 3750 3500
+F 0 "#PWR016" H 3750 3350 50  0001 C CNN
+F 1 "VBUS" H 3765 3673 50  0000 C CNN
+F 2 "" H 3750 3500 50  0001 C CNN
+F 3 "" H 3750 3500 50  0001 C CNN
+	1    3750 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 3650 3550 3650
+	3500 3650 3750 3650
 Wire Wire Line
-	3550 3500 3550 3650
-Connection ~ 3550 3650
+	3750 3500 3750 3650
+Connection ~ 3750 3650
 Wire Wire Line
-	3550 3650 3800 3650
+	3750 3650 4000 3650
 $Comp
 L Device:C C2
 U 1 1 5F8D7D00
-P 2300 3950
-F 0 "C2" H 2415 3996 50  0000 L CNN
-F 1 "100nF" H 2415 3905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2338 3800 50  0001 C CNN
-F 3 "http://product.samsungsem.com/mlcc/CL21B104KBFXPJ.do" H 2300 3950 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBFXPJE/11487741" H 2300 3950 50  0001 C CNN "DK_Detail_Page"
-F 5 "1276-CL21B104KBFXPJECT-ND" H 2300 3950 50  0001 C CNN "Digi-Key_PN"
-F 6 "CL21B104KBFXPJE" H 2300 3950 50  0001 C CNN "MPN"
-F 7 "SAMSUNG ELECTRO-MECHANICS" H 2300 3950 50  0001 C CNN "Manufacturer"
-	1    2300 3950
+P 2500 3950
+F 0 "C2" H 2615 3996 50  0000 L CNN
+F 1 "100nF" H 2615 3905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2538 3800 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL21B104KBFXPJ.do" H 2500 3950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBFXPJE/11487741" H 2500 3950 50  0001 C CNN "DK_Detail_Page"
+F 5 "1276-CL21B104KBFXPJECT-ND" H 2500 3950 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL21B104KBFXPJE" H 2500 3950 50  0001 C CNN "MPN"
+F 7 "SAMSUNG ELECTRO-MECHANICS" H 2500 3950 50  0001 C CNN "Manufacturer"
+	1    2500 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP C3
 U 1 1 5F8D7D06
-P 2800 3950
-F 0 "C3" H 2918 3996 50  0000 L CNN
-F 1 "10uF" H 2918 3905 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 2838 3800 50  0001 C CNN
-F 3 "https://www.avx.com/products/polymer/hv-tcj-series/" H 2800 3950 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Others_AVX_TCJA106M016R0200_AVX-TCJA106M016R0200_C194304.html" H 2800 3950 50  0001 C CNN "DK_Detail_Page"
-F 5 "C194304" H 2800 3950 50  0001 C CNN "Digi-Key_PN"
-F 6 "https://lcsc.com/product-detail/Others_AVX_TCJA106M016R0200_AVX-TCJA106M016R0200_C194304.html" H 2800 3950 50  0001 C CNN "MPN"
-F 7 "AVX" H 2800 3950 50  0001 C CNN "Manufacturer"
-	1    2800 3950
+P 3000 3950
+F 0 "C3" H 3118 3996 50  0000 L CNN
+F 1 "10uF" H 3118 3905 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 3038 3800 50  0001 C CNN
+F 3 "https://www.avx.com/products/polymer/hv-tcj-series/" H 3000 3950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Others_AVX_TCJA106M016R0200_AVX-TCJA106M016R0200_C194304.html" H 3000 3950 50  0001 C CNN "DK_Detail_Page"
+F 5 "C194304" H 3000 3950 50  0001 C CNN "Digi-Key_PN"
+F 6 "https://lcsc.com/product-detail/Others_AVX_TCJA106M016R0200_AVX-TCJA106M016R0200_C194304.html" H 3000 3950 50  0001 C CNN "MPN"
+F 7 "AVX" H 3000 3950 50  0001 C CNN "Manufacturer"
+	1    3000 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 3800 2800 3650
+	3000 3800 3000 3650
 Wire Wire Line
-	2300 3650 2300 3800
+	2500 3650 2500 3800
 Wire Wire Line
-	2800 4100 2800 4250
+	3000 4100 3000 4250
 Wire Wire Line
-	2300 4250 2300 4100
+	2500 4250 2500 4100
 $Comp
 L power:GND #PWR023
 U 1 1 5F8D7D10
-P 2550 4400
-F 0 "#PWR023" H 2550 4150 50  0001 C CNN
-F 1 "GND" H 2555 4227 50  0000 C CNN
-F 2 "" H 2550 4400 50  0001 C CNN
-F 3 "" H 2550 4400 50  0001 C CNN
-	1    2550 4400
+P 2750 4400
+F 0 "#PWR023" H 2750 4150 50  0001 C CNN
+F 1 "GND" H 2755 4227 50  0000 C CNN
+F 2 "" H 2750 4400 50  0001 C CNN
+F 3 "" H 2750 4400 50  0001 C CNN
+	1    2750 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 4250 2550 4250
+	2500 4250 2750 4250
 Wire Wire Line
-	2550 4400 2550 4250
-Connection ~ 2550 4250
+	2750 4400 2750 4250
+Connection ~ 2750 4250
 Wire Wire Line
-	2550 4250 2800 4250
+	2750 4250 3000 4250
 Wire Wire Line
 	1600 4150 1600 4400
 Wire Wire Line
@@ -316,32 +316,32 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR031
 U 1 1 5F88D4F4
-P 3850 5750
-F 0 "#PWR031" H 3850 5600 50  0001 C CNN
-F 1 "+5V" H 3865 5923 50  0000 C CNN
-F 2 "" H 3850 5750 50  0001 C CNN
-F 3 "" H 3850 5750 50  0001 C CNN
-	1    3850 5750
+P 4200 5750
+F 0 "#PWR031" H 4200 5600 50  0001 C CNN
+F 1 "+5V" H 4215 5923 50  0000 C CNN
+F 2 "" H 4200 5750 50  0001 C CNN
+F 3 "" H 4200 5750 50  0001 C CNN
+	1    4200 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Embedded-Microcontrollers:ATMEGA328P-AU U2
 U 1 1 5F893E7F
-P 4900 2700
-F 0 "U2" H 4450 4350 60  0000 L CNN
-F 1 "ATMEGA328P-AU" H 4050 4200 60  0000 L CNN
-F 2 "digikey-footprints:TQFP-32_7x7mm" H 5100 2900 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 5100 3000 60  0001 L CNN
-F 4 "ATMEGA328P-AU-ND" H 5100 3100 60  0001 L CNN "Digi-Key_PN"
-F 5 "ATMEGA328P-AU" H 5100 3200 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 5100 3300 60  0001 L CNN "Category"
-F 7 "Embedded - Microcontrollers" H 5100 3400 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 5100 3500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA328P-AU/1832260?s=N4IgTCBcDaIIIBUCyBRA4nAzGAHABQFo4BVAgOQBEQBdAXyA" H 5100 3600 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 5100 3700 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 5100 3800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5100 3900 60  0001 L CNN "Status"
-	1    4900 2700
+P 5550 2700
+F 0 "U2" H 5100 4350 60  0000 L CNN
+F 1 "ATMEGA328P-AU" H 4700 4200 60  0000 L CNN
+F 2 "digikey-footprints:TQFP-32_7x7mm" H 5750 2900 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 5750 3000 60  0001 L CNN
+F 4 "ATMEGA328P-AU-ND" H 5750 3100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATMEGA328P-AU" H 5750 3200 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 5750 3300 60  0001 L CNN "Category"
+F 7 "Embedded - Microcontrollers" H 5750 3400 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 5750 3500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA328P-AU/1832260?s=N4IgTCBcDaIIIBUCyBRA4nAzGAHABQFo4BVAgOQBEQBdAXyA" H 5750 3600 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 5750 3700 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 5750 3800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5750 3900 60  0001 L CNN "Status"
+	1    5550 2700
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -356,117 +356,117 @@ F 3 "" H 2650 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 4200 4900 4300
+	5550 4200 5550 4300
 Wire Wire Line
-	4700 4400 4700 4200
+	5350 4400 5350 4200
 Wire Wire Line
-	4800 4200 4800 4300
+	5450 4200 5450 4300
 Wire Wire Line
-	4800 4300 4900 4300
-Connection ~ 4900 4300
+	5450 4300 5550 4300
+Connection ~ 5550 4300
 Wire Wire Line
-	4900 4300 4900 4400
+	5550 4300 5550 4400
 $Comp
 L Device:Net-Tie_2 NT1
 U 1 1 5F8DF759
-P 3600 6750
-F 0 "NT1" H 3600 6931 50  0000 C CNN
-F 1 "Net-Tie_2" H 3600 6840 50  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 3600 6750 50  0001 C CNN
-F 3 "~" H 3600 6750 50  0001 C CNN
-	1    3600 6750
+P 3950 6750
+F 0 "NT1" H 3950 6931 50  0000 C CNN
+F 1 "Net-Tie_2" H 3950 6840 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 3950 6750 50  0001 C CNN
+F 3 "~" H 3950 6750 50  0001 C CNN
+	1    3950 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR034
 U 1 1 5F8E069F
-P 3450 6950
-F 0 "#PWR034" H 3450 6700 50  0001 C CNN
-F 1 "GNDA" H 3400 6800 50  0000 C CNN
-F 2 "" H 3450 6950 50  0001 C CNN
-F 3 "" H 3450 6950 50  0001 C CNN
-	1    3450 6950
+P 3800 6950
+F 0 "#PWR034" H 3800 6700 50  0001 C CNN
+F 1 "GNDA" H 3750 6800 50  0000 C CNN
+F 2 "" H 3800 6950 50  0001 C CNN
+F 3 "" H 3800 6950 50  0001 C CNN
+	1    3800 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR035
 U 1 1 5F8E06A5
-P 3750 6950
-F 0 "#PWR035" H 3750 6700 50  0001 C CNN
-F 1 "GND" H 3800 6800 50  0000 C CNN
-F 2 "" H 3750 6950 50  0001 C CNN
-F 3 "" H 3750 6950 50  0001 C CNN
-	1    3750 6950
+P 4100 6950
+F 0 "#PWR035" H 4100 6700 50  0001 C CNN
+F 1 "GND" H 4150 6800 50  0000 C CNN
+F 2 "" H 4100 6950 50  0001 C CNN
+F 3 "" H 4100 6950 50  0001 C CNN
+	1    4100 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 6950 3450 6750
+	3800 6950 3800 6750
 Wire Wire Line
-	3500 6750 3450 6750
+	3850 6750 3800 6750
 Wire Wire Line
-	3700 6750 3750 6750
+	4050 6750 4100 6750
 Wire Wire Line
-	3750 6750 3750 6950
+	4100 6750 4100 6950
 $Comp
 L Device:C C6
 U 1 1 5F8F071A
-P 6250 4100
-F 0 "C6" H 6365 4146 50  0000 L CNN
-F 1 "100nF" H 6365 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6288 3950 50  0001 C CNN
-F 3 "http://product.samsungsem.com/mlcc/CL21B104KBFXPJ.do" H 6250 4100 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBFXPJE/11487741" H 6250 4100 50  0001 C CNN "DK_Detail_Page"
-F 5 "1276-CL21B104KBFXPJECT-ND" H 6250 4100 50  0001 C CNN "Digi-Key_PN"
-F 6 "CL21B104KBFXPJE" H 6250 4100 50  0001 C CNN "MPN"
-F 7 "SAMSUNG ELECTRO-MECHANICS" H 6250 4100 50  0001 C CNN "Manufacturer"
-	1    6250 4100
+P 6900 4100
+F 0 "C6" H 7015 4146 50  0000 L CNN
+F 1 "100nF" H 7015 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6938 3950 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL21B104KBFXPJ.do" H 6900 4100 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBFXPJE/11487741" H 6900 4100 50  0001 C CNN "DK_Detail_Page"
+F 5 "1276-CL21B104KBFXPJECT-ND" H 6900 4100 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL21B104KBFXPJE" H 6900 4100 50  0001 C CNN "MPN"
+F 7 "SAMSUNG ELECTRO-MECHANICS" H 6900 4100 50  0001 C CNN "Manufacturer"
+	1    6900 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 3800 6250 3950
+	6900 3800 6900 3950
 Wire Wire Line
-	6250 4400 6250 4250
+	6900 4400 6900 4250
 $Comp
 L power:GNDA #PWR027
 U 1 1 5F8F9779
-P 6250 4400
-F 0 "#PWR027" H 6250 4150 50  0001 C CNN
-F 1 "GNDA" H 6200 4250 50  0000 C CNN
-F 2 "" H 6250 4400 50  0001 C CNN
-F 3 "" H 6250 4400 50  0001 C CNN
-	1    6250 4400
+P 6900 4400
+F 0 "#PWR027" H 6900 4150 50  0001 C CNN
+F 1 "GNDA" H 6850 4250 50  0000 C CNN
+F 2 "" H 6900 4400 50  0001 C CNN
+F 3 "" H 6900 4400 50  0001 C CNN
+	1    6900 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 3800 6250 3800
+	6050 3800 6900 3800
 $Comp
 L power:+5V #PWR04
 U 1 1 5F9046E3
-P 4800 1000
-F 0 "#PWR04" H 4800 850 50  0001 C CNN
-F 1 "+5V" H 4815 1173 50  0000 C CNN
-F 2 "" H 4800 1000 50  0001 C CNN
-F 3 "" H 4800 1000 50  0001 C CNN
-	1    4800 1000
+P 5450 1000
+F 0 "#PWR04" H 5450 850 50  0001 C CNN
+F 1 "+5V" H 5465 1173 50  0000 C CNN
+F 2 "" H 5450 1000 50  0001 C CNN
+F 3 "" H 5450 1000 50  0001 C CNN
+	1    5450 1000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6350 1800 6350 1850
+	7000 1800 7000 1850
 Wire Wire Line
-	6350 1500 6350 1450
+	7000 1500 7000 1450
 $Comp
 L Device:Resonator Y1
 U 1 1 5F90EEE1
-P 6350 1650
-F 0 "Y1" V 6600 1450 50  0000 L CNN
-F 1 "16MHz Resonator" V 6700 1450 50  0000 L CNN
-F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering" H 6325 1650 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdetail?cate=cgsubResonators&partno=CSTNE16M0V530000R0" H 6325 1650 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/murata-electronics/CSTNE16M0V530000R0/490-17948-1-ND/8747756" H 6350 1650 50  0001 C CNN "DK_Detail_Page"
-F 5 "490-17948-1-ND" H 6350 1650 50  0001 C CNN "Digi-Key_PN"
-F 6 "CSTNE16M0V530000R0" H 6350 1650 50  0001 C CNN "MPN"
-F 7 "Murata Electronics" H 6350 1650 50  0001 C CNN "Manufacturer"
-	1    6350 1650
+P 7000 1650
+F 0 "Y1" V 7250 1450 50  0000 L CNN
+F 1 "16MHz Resonator" V 7350 1450 50  0000 L CNN
+F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering" H 6975 1650 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdetail?cate=cgsubResonators&partno=CSTNE16M0V530000R0" H 6975 1650 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/murata-electronics/CSTNE16M0V530000R0/490-17948-1-ND/8747756" H 7000 1650 50  0001 C CNN "DK_Detail_Page"
+F 5 "490-17948-1-ND" H 7000 1650 50  0001 C CNN "Digi-Key_PN"
+F 6 "CSTNE16M0V530000R0" H 7000 1650 50  0001 C CNN "MPN"
+F 7 "Murata Electronics" H 7000 1650 50  0001 C CNN "Manufacturer"
+	1    7000 1650
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -485,16 +485,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR08
 U 1 1 5F951A48
-P 6700 2050
-F 0 "#PWR08" H 6700 1800 50  0001 C CNN
-F 1 "GND" H 6705 1877 50  0000 C CNN
-F 2 "" H 6700 2050 50  0001 C CNN
-F 3 "" H 6700 2050 50  0001 C CNN
-	1    6700 2050
+P 7350 2050
+F 0 "#PWR08" H 7350 1800 50  0001 C CNN
+F 1 "GND" H 7355 1877 50  0000 C CNN
+F 2 "" H 7350 2050 50  0001 C CNN
+F 3 "" H 7350 2050 50  0001 C CNN
+	1    7350 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 1650 6700 1650
+	7200 1650 7350 1650
 $Comp
 L Device:C C1
 U 1 1 5F8A28A1
@@ -510,16 +510,16 @@ F 7 "SAMSUNG ELECTRO-MECHANICS" H 3350 2200 50  0001 C CNN "Manufacturer"
 	1    3350 2200
 	0    1    1    0   
 $EndComp
-Text Label 5550 3300 0    50   ~ 0
+Text Label 6200 3300 0    50   ~ 0
 RESET
 NoConn ~ 3050 1700
 NoConn ~ 3050 1800
 NoConn ~ 3050 1900
 NoConn ~ 3050 2000
 NoConn ~ 3050 2100
-Text Label 5550 3500 0    50   ~ 0
+Text Label 6200 3500 0    50   ~ 0
 TX1
-Text Label 5550 3400 0    50   ~ 0
+Text Label 6200 3400 0    50   ~ 0
 RX0
 $Comp
 L Device:R R5
@@ -558,18 +558,18 @@ Wire Wire Line
 Wire Wire Line
 	3200 2200 3050 2200
 Wire Wire Line
-	4900 1100 4900 1050
+	5550 1100 5550 1050
 Wire Wire Line
-	4900 1050 4800 1050
+	5550 1050 5450 1050
 Wire Wire Line
-	4700 1050 4700 1100
+	5350 1050 5350 1100
 Wire Wire Line
-	4800 1100 4800 1050
-Connection ~ 4800 1050
+	5450 1100 5450 1050
+Connection ~ 5450 1050
 Wire Wire Line
-	4800 1050 4700 1050
+	5450 1050 5350 1050
 Wire Wire Line
-	4800 1050 4800 1000
+	5450 1050 5450 1000
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5F978133
@@ -637,76 +637,76 @@ F 3 "~" H 10800 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 3650 2550 3650
+	2500 3650 2750 3650
 $Comp
 L power:+5V #PWR015
 U 1 1 5FA7D8D2
-P 2550 3500
-F 0 "#PWR015" H 2550 3350 50  0001 C CNN
-F 1 "+5V" H 2565 3673 50  0000 C CNN
-F 2 "" H 2550 3500 50  0001 C CNN
-F 3 "" H 2550 3500 50  0001 C CNN
-	1    2550 3500
+P 2750 3500
+F 0 "#PWR015" H 2750 3350 50  0001 C CNN
+F 1 "+5V" H 2765 3673 50  0000 C CNN
+F 2 "" H 2750 3500 50  0001 C CNN
+F 3 "" H 2750 3500 50  0001 C CNN
+	1    2750 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 3500 2550 3650
-Connection ~ 2550 3650
+	2750 3500 2750 3650
+Connection ~ 2750 3650
 Wire Wire Line
-	2550 3650 2800 3650
+	2750 3650 3000 3650
 $Comp
 L Connector_Generic:Conn_01x15 J2
 U 1 1 5FADC671
-P 8350 4400
-F 0 "J2" H 8300 5300 50  0000 L CNN
-F 1 "Conn_01x15" H 8100 5200 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 8350 4400 50  0001 C CNN
-F 3 "https://www.samtec.com/products/tsw-115-07-t-s-015" H 8350 4400 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samtec-inc/TSW-115-07-T-S/1101609" H 8350 4400 50  0001 C CNN "DK_Detail_Page"
-F 5 "SAM1035-15-ND" H 8350 4400 50  0001 C CNN "Digi-Key_PN"
-F 6 "TSW-115-07-T-S" H 8350 4400 50  0001 C CNN "MPN"
-F 7 "Samtec Inc." H 8350 4400 50  0001 C CNN "Manufacturer"
-	1    8350 4400
+P 8850 4400
+F 0 "J2" H 8800 5300 50  0000 L CNN
+F 1 "Conn_01x15" H 8600 5200 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 8850 4400 50  0001 C CNN
+F 3 "https://www.samtec.com/products/tsw-115-07-t-s-015" H 8850 4400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samtec-inc/TSW-115-07-T-S/1101609" H 8850 4400 50  0001 C CNN "DK_Detail_Page"
+F 5 "SAM1035-15-ND" H 8850 4400 50  0001 C CNN "Digi-Key_PN"
+F 6 "TSW-115-07-T-S" H 8850 4400 50  0001 C CNN "MPN"
+F 7 "Samtec Inc." H 8850 4400 50  0001 C CNN "Manufacturer"
+	1    8850 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x15 J3
 U 1 1 5FAE0B68
-P 9300 4400
-F 0 "J3" H 9300 5300 50  0000 C CNN
-F 1 "Conn_01x15" H 9300 5200 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 9300 4400 50  0001 C CNN
-F 3 "https://www.samtec.com/products/tsw-115-07-t-s-015" H 9300 4400 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samtec-inc/TSW-115-07-T-S/1101609" H 9300 4400 50  0001 C CNN "DK_Detail_Page"
-F 5 "SAM1035-15-ND" H 9300 4400 50  0001 C CNN "Digi-Key_PN"
-F 6 "TSW-115-07-T-S" H 9300 4400 50  0001 C CNN "MPN"
-F 7 "Samtec Inc." H 9300 4400 50  0001 C CNN "Manufacturer"
-	1    9300 4400
+P 9450 4400
+F 0 "J3" H 9450 5300 50  0000 C CNN
+F 1 "Conn_01x15" H 9450 5200 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 9450 4400 50  0001 C CNN
+F 3 "https://www.samtec.com/products/tsw-115-07-t-s-015" H 9450 4400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samtec-inc/TSW-115-07-T-S/1101609" H 9450 4400 50  0001 C CNN "DK_Detail_Page"
+F 5 "SAM1035-15-ND" H 9450 4400 50  0001 C CNN "Digi-Key_PN"
+F 6 "TSW-115-07-T-S" H 9450 4400 50  0001 C CNN "MPN"
+F 7 "Samtec Inc." H 9450 4400 50  0001 C CNN "Manufacturer"
+	1    9450 4400
 	-1   0    0    -1  
 $EndComp
-Text Label 7600 3700 0    50   ~ 0
+Text Label 8100 3700 0    50   ~ 0
 TX1
-Text Label 7600 3900 0    50   ~ 0
+Text Label 8100 3900 0    50   ~ 0
 RESET
-Text Label 7600 4100 0    50   ~ 0
+Text Label 8100 4100 0    50   ~ 0
 D2
-Text Label 7600 4200 0    50   ~ 0
+Text Label 8100 4200 0    50   ~ 0
 D3
-Text Label 7600 4300 0    50   ~ 0
+Text Label 8100 4300 0    50   ~ 0
 D4
-Text Label 7600 4400 0    50   ~ 0
+Text Label 8100 4400 0    50   ~ 0
 D5
-Text Label 7600 4500 0    50   ~ 0
+Text Label 8100 4500 0    50   ~ 0
 D6
-Text Label 7600 4600 0    50   ~ 0
+Text Label 8100 4600 0    50   ~ 0
 D7
-Text Label 7600 4700 0    50   ~ 0
+Text Label 8100 4700 0    50   ~ 0
 D8
-Text Label 7600 4800 0    50   ~ 0
+Text Label 8100 4800 0    50   ~ 0
 D9
-Text Label 7600 4900 0    50   ~ 0
+Text Label 8100 4900 0    50   ~ 0
 D10
-Text Label 7600 5000 0    50   ~ 0
+Text Label 8100 5000 0    50   ~ 0
 D11_MOSI
 Wire Wire Line
 	2650 2500 2650 2400
@@ -716,184 +716,184 @@ Wire Wire Line
 	1100 2500 1100 2250
 Connection ~ 1100 2250
 Wire Wire Line
-	6700 2050 6700 1650
+	7350 2050 7350 1650
 $Comp
 L Device:LED D1
 U 1 1 5FC2C306
-P 7900 1750
-F 0 "D1" V 7939 1632 50  0000 R CNN
-F 1 "LED ROJO" V 7848 1632 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 1750 50  0001 C CNN
-F 3 "https://www.digikey.com/htmldatasheets/production/1371624/0/0/1/150080ss75000.html" H 7900 1750 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080SS75000/4489921" H 7900 1750 50  0001 C CNN "DK_Detail_Page"
-F 5 "732-4985-1-ND" H 7900 1750 50  0001 C CNN "Digi-Key_PN"
-F 6 "150080SS75000" H 7900 1750 50  0001 C CNN "MPN"
-F 7 "Würth Elektronik" H 7900 1750 50  0001 C CNN "Manufacturer"
-	1    7900 1750
+P 8050 1750
+F 0 "D1" V 8089 1632 50  0000 R CNN
+F 1 "LED ROJO" V 7998 1632 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8050 1750 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/1371624/0/0/1/150080ss75000.html" H 8050 1750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080SS75000/4489921" H 8050 1750 50  0001 C CNN "DK_Detail_Page"
+F 5 "732-4985-1-ND" H 8050 1750 50  0001 C CNN "Digi-Key_PN"
+F 6 "150080SS75000" H 8050 1750 50  0001 C CNN "MPN"
+F 7 "Würth Elektronik" H 8050 1750 50  0001 C CNN "Manufacturer"
+	1    8050 1750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5FC2C312
-P 7900 1300
-F 0 "R1" H 7970 1346 50  0000 L CNN
-F 1 "R" H 7970 1255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7830 1300 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 7900 1300 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 7900 1300 50  0001 C CNN "DK_Detail_Page"
-F 5 "RNCP0805FTD1K00CT-ND" H 7900 1300 50  0001 C CNN "Digi-Key_PN"
-F 6 "RNCP0805FTD1K00" H 7900 1300 50  0001 C CNN "MPN"
-F 7 "Stackpole Electronics Inc" H 7900 1300 50  0001 C CNN "Manufacturer"
-	1    7900 1300
+P 8050 1300
+F 0 "R1" H 8120 1346 50  0000 L CNN
+F 1 "R" H 8120 1255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7980 1300 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 8050 1300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 8050 1300 50  0001 C CNN "DK_Detail_Page"
+F 5 "RNCP0805FTD1K00CT-ND" H 8050 1300 50  0001 C CNN "Digi-Key_PN"
+F 6 "RNCP0805FTD1K00" H 8050 1300 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 8050 1300 50  0001 C CNN "Manufacturer"
+	1    8050 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 1000 7900 1150
+	8050 1000 8050 1150
 Wire Wire Line
-	7900 1450 7900 1600
+	8050 1450 8050 1600
 $Comp
 L power:+5V #PWR06
 U 1 1 5FC357A8
-P 8650 1000
-F 0 "#PWR06" H 8650 850 50  0001 C CNN
-F 1 "+5V" H 8665 1173 50  0000 C CNN
-F 2 "" H 8650 1000 50  0001 C CNN
-F 3 "" H 8650 1000 50  0001 C CNN
-	1    8650 1000
+P 8800 1000
+F 0 "#PWR06" H 8800 850 50  0001 C CNN
+F 1 "+5V" H 8815 1173 50  0000 C CNN
+F 2 "" H 8800 1000 50  0001 C CNN
+F 3 "" H 8800 1000 50  0001 C CNN
+	1    8800 1000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 1450 8650 1600
+	8800 1450 8800 1600
 Wire Wire Line
-	8650 1000 8650 1150
+	8800 1000 8800 1150
 $Comp
 L Device:R R2
 U 1 1 5FC3579F
-P 8650 1300
-F 0 "R2" H 8720 1346 50  0000 L CNN
-F 1 "R" H 8720 1255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8580 1300 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 8650 1300 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 8650 1300 50  0001 C CNN "DK_Detail_Page"
-F 5 "RNCP0805FTD1K00CT-ND" H 8650 1300 50  0001 C CNN "Digi-Key_PN"
-F 6 "RNCP0805FTD1K00" H 8650 1300 50  0001 C CNN "MPN"
-F 7 "Stackpole Electronics Inc" H 8650 1300 50  0001 C CNN "Manufacturer"
-	1    8650 1300
+P 8800 1300
+F 0 "R2" H 8870 1346 50  0000 L CNN
+F 1 "R" H 8870 1255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8730 1300 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 8800 1300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 8800 1300 50  0001 C CNN "DK_Detail_Page"
+F 5 "RNCP0805FTD1K00CT-ND" H 8800 1300 50  0001 C CNN "Digi-Key_PN"
+F 6 "RNCP0805FTD1K00" H 8800 1300 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 8800 1300 50  0001 C CNN "Manufacturer"
+	1    8800 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D2
 U 1 1 5FC35793
-P 8650 1750
-F 0 "D2" V 8689 1632 50  0000 R CNN
-F 1 "LED VERDE" V 8598 1632 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8650 1750 50  0001 C CNN
-F 3 "https://www.digikey.com/htmldatasheets/production/1371625/0/0/1/150080vs75000.html" H 8650 1750 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080VS75000/4489924" H 8650 1750 50  0001 C CNN "DK_Detail_Page"
-F 5 "732-4986-1-ND" H 8650 1750 50  0001 C CNN "Digi-Key_PN"
-F 6 "150080VS75000" H 8650 1750 50  0001 C CNN "MPN"
-F 7 "Würth Elektronik" H 8650 1750 50  0001 C CNN "Manufacturer"
-	1    8650 1750
+P 8800 1750
+F 0 "D2" V 8839 1632 50  0000 R CNN
+F 1 "LED VERDE" V 8748 1632 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8800 1750 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/1371625/0/0/1/150080vs75000.html" H 8800 1750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080VS75000/4489924" H 8800 1750 50  0001 C CNN "DK_Detail_Page"
+F 5 "732-4986-1-ND" H 8800 1750 50  0001 C CNN "Digi-Key_PN"
+F 6 "150080VS75000" H 8800 1750 50  0001 C CNN "MPN"
+F 7 "Würth Elektronik" H 8800 1750 50  0001 C CNN "Manufacturer"
+	1    8800 1750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9400 1900 9400 2050
+	9550 1900 9550 2050
 Wire Wire Line
-	9400 1450 9400 1600
+	9550 1450 9550 1600
 Wire Wire Line
-	9400 1000 9400 1150
+	9550 1000 9550 1150
 $Comp
 L power:+5V #PWR07
 U 1 1 5F87AF4C
-P 9400 1000
-F 0 "#PWR07" H 9400 850 50  0001 C CNN
-F 1 "+5V" H 9415 1173 50  0000 C CNN
-F 2 "" H 9400 1000 50  0001 C CNN
-F 3 "" H 9400 1000 50  0001 C CNN
-	1    9400 1000
+P 9550 1000
+F 0 "#PWR07" H 9550 850 50  0001 C CNN
+F 1 "+5V" H 9565 1173 50  0000 C CNN
+F 2 "" H 9550 1000 50  0001 C CNN
+F 3 "" H 9550 1000 50  0001 C CNN
+	1    9550 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 5F87915A
-P 9400 1300
-F 0 "R3" H 9470 1346 50  0000 L CNN
-F 1 "R" H 9470 1255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9330 1300 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 9400 1300 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 9400 1300 50  0001 C CNN "DK_Detail_Page"
-F 5 "RNCP0805FTD1K00CT-ND" H 9400 1300 50  0001 C CNN "Digi-Key_PN"
-F 6 "RNCP0805FTD1K00" H 9400 1300 50  0001 C CNN "MPN"
-F 7 "Stackpole Electronics Inc" H 9400 1300 50  0001 C CNN "Manufacturer"
-	1    9400 1300
+P 9550 1300
+F 0 "R3" H 9620 1346 50  0000 L CNN
+F 1 "R" H 9620 1255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9480 1300 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 9550 1300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 9550 1300 50  0001 C CNN "DK_Detail_Page"
+F 5 "RNCP0805FTD1K00CT-ND" H 9550 1300 50  0001 C CNN "Digi-Key_PN"
+F 6 "RNCP0805FTD1K00" H 9550 1300 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 9550 1300 50  0001 C CNN "Manufacturer"
+	1    9550 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 5F88242E
-P 9400 2050
-F 0 "#PWR09" H 9400 1800 50  0001 C CNN
-F 1 "GND" H 9405 1877 50  0000 C CNN
-F 2 "" H 9400 2050 50  0001 C CNN
-F 3 "" H 9400 2050 50  0001 C CNN
-	1    9400 2050
+P 9550 2050
+F 0 "#PWR09" H 9550 1800 50  0001 C CNN
+F 1 "GND" H 9555 1877 50  0000 C CNN
+F 2 "" H 9550 2050 50  0001 C CNN
+F 3 "" H 9550 2050 50  0001 C CNN
+	1    9550 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D3
 U 1 1 5F87F27C
-P 9400 1750
-F 0 "D3" V 9439 1632 50  0000 R CNN
-F 1 "LED VERDE" V 9348 1632 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9400 1750 50  0001 C CNN
-F 3 "https://www.digikey.com/htmldatasheets/production/1371625/0/0/1/150080vs75000.html" H 9400 1750 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080VS75000/4489924" H 9400 1750 50  0001 C CNN "DK_Detail_Page"
-F 5 "732-4986-1-ND" H 9400 1750 50  0001 C CNN "Digi-Key_PN"
-F 6 "150080VS75000" H 9400 1750 50  0001 C CNN "MPN"
-F 7 "Würth Elektronik" H 9400 1750 50  0001 C CNN "Manufacturer"
-	1    9400 1750
+P 9550 1750
+F 0 "D3" V 9589 1632 50  0000 R CNN
+F 1 "LED VERDE" V 9498 1632 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9550 1750 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/1371625/0/0/1/150080vs75000.html" H 9550 1750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080VS75000/4489924" H 9550 1750 50  0001 C CNN "DK_Detail_Page"
+F 5 "732-4986-1-ND" H 9550 1750 50  0001 C CNN "Digi-Key_PN"
+F 6 "150080VS75000" H 9550 1750 50  0001 C CNN "MPN"
+F 7 "Würth Elektronik" H 9550 1750 50  0001 C CNN "Manufacturer"
+	1    9550 1750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10150 1450 10150 1600
+	10300 1450 10300 1600
 $Comp
 L Device:R R4
 U 1 1 5FC6E594
-P 10150 1300
-F 0 "R4" H 10220 1346 50  0000 L CNN
-F 1 "R" H 10220 1255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10080 1300 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 10150 1300 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 10150 1300 50  0001 C CNN "DK_Detail_Page"
-F 5 "RNCP0805FTD1K00CT-ND" H 10150 1300 50  0001 C CNN "Digi-Key_PN"
-F 6 "RNCP0805FTD1K00" H 10150 1300 50  0001 C CNN "MPN"
-F 7 "Stackpole Electronics Inc" H 10150 1300 50  0001 C CNN "Manufacturer"
-	1    10150 1300
+P 10300 1300
+F 0 "R4" H 10370 1346 50  0000 L CNN
+F 1 "R" H 10370 1255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10230 1300 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 10300 1300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 10300 1300 50  0001 C CNN "DK_Detail_Page"
+F 5 "RNCP0805FTD1K00CT-ND" H 10300 1300 50  0001 C CNN "Digi-Key_PN"
+F 6 "RNCP0805FTD1K00" H 10300 1300 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 10300 1300 50  0001 C CNN "Manufacturer"
+	1    10300 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D4
 U 1 1 5FC6E5A0
-P 10150 1750
-F 0 "D4" V 10189 1632 50  0000 R CNN
-F 1 "LED AMARILLO" V 10098 1632 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10150 1750 50  0001 C CNN
-F 3 "~https://www.digikey.com/htmldatasheets/production/1371626/0/0/1/150080ys75000.html" H 10150 1750 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080YS75000/4489927" H 10150 1750 50  0001 C CNN "DK_Detail_Page"
-F 5 "732-4987-1-ND" H 10150 1750 50  0001 C CNN "Digi-Key_PN"
-F 6 "150080YS75000" H 10150 1750 50  0001 C CNN "MPN"
-F 7 "Würth Elektronik" H 10150 1750 50  0001 C CNN "Manufacturer"
-	1    10150 1750
+P 10300 1750
+F 0 "D4" V 10339 1632 50  0000 R CNN
+F 1 "LED AMARILLO" V 10248 1632 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10300 1750 50  0001 C CNN
+F 3 "~https://www.digikey.com/htmldatasheets/production/1371626/0/0/1/150080ys75000.html" H 10300 1750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080YS75000/4489927" H 10300 1750 50  0001 C CNN "DK_Detail_Page"
+F 5 "732-4987-1-ND" H 10300 1750 50  0001 C CNN "Digi-Key_PN"
+F 6 "150080YS75000" H 10300 1750 50  0001 C CNN "MPN"
+F 7 "Würth Elektronik" H 10300 1750 50  0001 C CNN "Manufacturer"
+	1    10300 1750
 	0    -1   -1   0   
 $EndComp
-Text Label 7900 2250 0    50   ~ 0
+Text Label 8050 2250 0    50   ~ 0
 RX0
 Wire Wire Line
-	7900 1900 7900 2250
-Text Label 8650 2250 0    50   ~ 0
+	8050 1900 8050 2250
+Text Label 8800 2250 0    50   ~ 0
 TX1
 Wire Wire Line
-	8650 1900 8650 2250
+	8800 1900 8800 2250
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J4
 U 1 1 5FCC922F
@@ -935,16 +935,16 @@ Text Label 1900 6350 0    50   ~ 0
 D11_MOSI
 Wire Wire Line
 	1750 6350 2300 6350
-Text Label 5550 2500 0    50   ~ 0
+Text Label 6200 2500 0    50   ~ 0
 D12_MISO
 Wire Wire Line
-	5400 2500 5950 2500
+	6050 2500 6600 2500
 Wire Wire Line
-	5400 3300 5950 3300
+	6050 3300 6600 3300
 Wire Wire Line
-	5400 3400 5950 3400
+	6050 3400 6600 3400
 Wire Wire Line
-	5400 3500 5950 3500
+	6050 3500 6600 3500
 Text Label 3650 2200 0    50   ~ 0
 RESET
 Text Label 3650 1400 0    50   ~ 0
@@ -961,93 +961,93 @@ Wire Wire Line
 	1400 1700 2250 1700
 Wire Wire Line
 	1400 1800 2250 1800
-Text Label 7600 5100 0    50   ~ 0
+Text Label 8100 5100 0    50   ~ 0
 D12_MISO
 Wire Wire Line
-	7600 3700 8150 3700
+	8100 3700 8650 3700
 Wire Wire Line
-	7600 3800 8150 3800
+	8100 3800 8650 3800
 Wire Wire Line
-	7600 3900 8150 3900
+	8100 3900 8650 3900
 Wire Wire Line
-	7600 4100 8150 4100
+	8100 4100 8650 4100
 Wire Wire Line
-	7600 4200 8150 4200
+	8100 4200 8650 4200
 Wire Wire Line
-	7600 4300 8150 4300
+	8100 4300 8650 4300
 Wire Wire Line
-	7600 4400 8150 4400
+	8100 4400 8650 4400
 Wire Wire Line
-	7600 4500 8150 4500
+	8100 4500 8650 4500
 Wire Wire Line
-	7600 4600 8150 4600
+	8100 4600 8650 4600
 Wire Wire Line
-	7600 4700 8150 4700
+	8100 4700 8650 4700
 Wire Wire Line
-	7600 4800 8150 4800
+	8100 4800 8650 4800
 Wire Wire Line
-	7600 4900 8150 4900
+	8100 4900 8650 4900
 Wire Wire Line
-	7600 5000 8150 5000
+	8100 5000 8650 5000
 Wire Wire Line
-	7600 5100 8150 5100
+	8100 5100 8650 5100
 $Comp
 L power:GND #PWR026
 U 1 1 5F8A0F5E
-P 4900 4400
-F 0 "#PWR026" H 4900 4150 50  0001 C CNN
-F 1 "GND" H 4950 4250 50  0000 C CNN
-F 2 "" H 4900 4400 50  0001 C CNN
-F 3 "" H 4900 4400 50  0001 C CNN
-	1    4900 4400
+P 5550 4400
+F 0 "#PWR026" H 5550 4150 50  0001 C CNN
+F 1 "GND" H 5600 4250 50  0000 C CNN
+F 2 "" H 5550 4400 50  0001 C CNN
+F 3 "" H 5550 4400 50  0001 C CNN
+	1    5550 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR025
 U 1 1 5F89F40A
-P 4700 4400
-F 0 "#PWR025" H 4700 4150 50  0001 C CNN
-F 1 "GNDA" H 4650 4250 50  0000 C CNN
-F 2 "" H 4700 4400 50  0001 C CNN
-F 3 "" H 4700 4400 50  0001 C CNN
-	1    4700 4400
+P 5350 4400
+F 0 "#PWR025" H 5350 4150 50  0001 C CNN
+F 1 "GNDA" H 5300 4250 50  0000 C CNN
+F 2 "" H 5350 4400 50  0001 C CNN
+F 3 "" H 5350 4400 50  0001 C CNN
+	1    5350 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR028
 U 1 1 5F99433B
-P 7250 4400
-F 0 "#PWR028" H 7250 4150 50  0001 C CNN
-F 1 "GND" H 7255 4227 50  0000 C CNN
-F 2 "" H 7250 4400 50  0001 C CNN
-F 3 "" H 7250 4400 50  0001 C CNN
-	1    7250 4400
+P 7750 4400
+F 0 "#PWR028" H 7750 4150 50  0001 C CNN
+F 1 "GND" H 7755 4227 50  0000 C CNN
+F 2 "" H 7750 4400 50  0001 C CNN
+F 3 "" H 7750 4400 50  0001 C CNN
+	1    7750 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 4000 8150 4000
-Text Label 7600 3800 0    50   ~ 0
+	7750 4000 8650 4000
+Text Label 8100 3800 0    50   ~ 0
 RX0
-Text Label 5550 2600 0    50   ~ 0
+Text Label 6200 2600 0    50   ~ 0
 D13_SCK
 Wire Wire Line
-	5400 2600 5950 2600
-Text Label 5550 1900 0    50   ~ 0
+	6050 2600 6600 2600
+Text Label 6200 1900 0    50   ~ 0
 D6
 Wire Wire Line
-	5400 1900 5950 1900
+	6050 1900 6600 1900
 Wire Wire Line
-	6200 1700 6200 1850
+	6850 1700 6850 1850
 Wire Wire Line
-	6200 1850 6350 1850
+	6850 1850 7000 1850
 Wire Wire Line
-	5400 1700 6200 1700
+	6050 1700 6850 1700
 Wire Wire Line
-	6200 1600 6200 1450
+	6850 1600 6850 1450
 Wire Wire Line
-	6200 1450 6350 1450
+	6850 1450 7000 1450
 Wire Wire Line
-	5400 1600 6200 1600
+	6050 1600 6850 1600
 Wire Wire Line
 	2000 2200 2000 2300
 Wire Wire Line
@@ -1060,124 +1060,124 @@ Wire Wire Line
 	2000 1900 1850 1900
 Wire Wire Line
 	2000 2000 2250 2000
-Text Label 5550 2000 0    50   ~ 0
+Text Label 6200 2000 0    50   ~ 0
 D7
 Wire Wire Line
-	5400 2000 5950 2000
-Text Label 5550 2100 0    50   ~ 0
+	6050 2000 6600 2000
+Text Label 6200 2100 0    50   ~ 0
 D8
 Wire Wire Line
-	5400 2100 5950 2100
-Text Label 5550 2200 0    50   ~ 0
+	6050 2100 6600 2100
+Text Label 6200 2200 0    50   ~ 0
 D9
 Wire Wire Line
-	5400 2200 5950 2200
-Text Label 5550 2300 0    50   ~ 0
+	6050 2200 6600 2200
+Text Label 6200 2300 0    50   ~ 0
 D10
 Wire Wire Line
-	5400 2300 5950 2300
-Text Label 5550 2400 0    50   ~ 0
+	6050 2300 6600 2300
+Text Label 6200 2400 0    50   ~ 0
 D11_MOSI
 Wire Wire Line
-	5400 2400 5950 2400
-Text Label 9650 3700 0    50   ~ 0
+	6050 2400 6600 2400
+Text Label 9800 3700 0    50   ~ 0
 VIN
-Text Label 9650 3800 0    50   ~ 0
+Text Label 9800 3800 0    50   ~ 0
 GND
-Text Label 9650 3900 0    50   ~ 0
+Text Label 9800 3900 0    50   ~ 0
 RESET
 Wire Wire Line
-	9500 3900 10050 3900
-Text Label 9650 4000 0    50   ~ 0
+	9650 3900 10200 3900
+Text Label 9800 4000 0    50   ~ 0
 5V
-Text Label 9650 4100 0    50   ~ 0
+Text Label 9800 4100 0    50   ~ 0
 A7
 Wire Wire Line
-	9500 4100 10050 4100
-Text Label 9650 4200 0    50   ~ 0
+	9650 4100 10200 4100
+Text Label 9800 4200 0    50   ~ 0
 A6
 Wire Wire Line
-	9500 4200 10050 4200
-Text Label 9650 4300 0    50   ~ 0
+	9650 4200 10200 4200
+Text Label 9800 4300 0    50   ~ 0
 A5
 Wire Wire Line
-	9500 4300 10050 4300
-Text Label 9650 4400 0    50   ~ 0
+	9650 4300 10200 4300
+Text Label 9800 4400 0    50   ~ 0
 A4
 Wire Wire Line
-	9500 4400 10050 4400
-Text Label 9650 4500 0    50   ~ 0
+	9650 4400 10200 4400
+Text Label 9800 4500 0    50   ~ 0
 A3
 Wire Wire Line
-	9500 4500 10050 4500
-Text Label 9650 4600 0    50   ~ 0
+	9650 4500 10200 4500
+Text Label 9800 4600 0    50   ~ 0
 A2
 Wire Wire Line
-	9500 4600 10050 4600
-Text Label 9650 4700 0    50   ~ 0
+	9650 4600 10200 4600
+Text Label 9800 4700 0    50   ~ 0
 A1
 Wire Wire Line
-	9500 4700 10050 4700
-Text Label 9650 4800 0    50   ~ 0
+	9650 4700 10200 4700
+Text Label 9800 4800 0    50   ~ 0
 A0
 Wire Wire Line
-	9500 4800 10050 4800
-Text Label 9650 4900 0    50   ~ 0
+	9650 4800 10200 4800
+Text Label 9800 4900 0    50   ~ 0
 AREF
 Wire Wire Line
-	9500 4900 10050 4900
-Text Label 9650 5100 0    50   ~ 0
+	9650 4900 10200 4900
+Text Label 9800 5100 0    50   ~ 0
 D13_SCK
 Wire Wire Line
-	9500 5100 10050 5100
-Text Label 5550 2700 0    50   ~ 0
+	9650 5100 10200 5100
+Text Label 6200 2700 0    50   ~ 0
 A0
 Wire Wire Line
-	5400 2700 5950 2700
-Text Label 5550 2800 0    50   ~ 0
+	6050 2700 6600 2700
+Text Label 6200 2800 0    50   ~ 0
 A1
 Wire Wire Line
-	5400 2800 5950 2800
-Text Label 5550 2900 0    50   ~ 0
+	6050 2800 6600 2800
+Text Label 6200 2900 0    50   ~ 0
 A2
 Wire Wire Line
-	5400 2900 5950 2900
-Text Label 5550 3000 0    50   ~ 0
+	6050 2900 6600 2900
+Text Label 6200 3000 0    50   ~ 0
 A3
 Wire Wire Line
-	5400 3000 5950 3000
-Text Label 5550 3100 0    50   ~ 0
+	6050 3000 6600 3000
+Text Label 6200 3100 0    50   ~ 0
 A4
 Wire Wire Line
-	5400 3100 5950 3100
-Text Label 5550 3200 0    50   ~ 0
+	6050 3100 6600 3100
+Text Label 6200 3200 0    50   ~ 0
 A5
 Wire Wire Line
-	5400 3200 5950 3200
-Text Label 5550 1400 0    50   ~ 0
+	6050 3200 6600 3200
+Text Label 6200 1400 0    50   ~ 0
 D3
 Wire Wire Line
-	5400 1400 5950 1400
-Text Label 5550 1500 0    50   ~ 0
+	6050 1400 6600 1400
+Text Label 6200 1500 0    50   ~ 0
 D4
 Wire Wire Line
-	5400 1500 5950 1500
-Text Label 5550 1800 0    50   ~ 0
+	6050 1500 6600 1500
+Text Label 6200 1800 0    50   ~ 0
 D5
 Wire Wire Line
-	5400 1800 5950 1800
-Text Label 5550 3600 0    50   ~ 0
+	6050 1800 6600 1800
+Text Label 6200 3600 0    50   ~ 0
 D2
 Wire Wire Line
-	5400 3600 5950 3600
-Text Label 5550 3700 0    50   ~ 0
+	6050 3600 6600 3600
+Text Label 6200 3700 0    50   ~ 0
 A6
 Wire Wire Line
-	5400 3700 5950 3700
-Text Label 5550 3900 0    50   ~ 0
+	6050 3700 6600 3700
+Text Label 6200 3900 0    50   ~ 0
 A7
 Wire Wire Line
-	5400 3900 5950 3900
+	6050 3900 6600 3900
 Text Label 700  6250 0    50   ~ 0
 D12_MISO
 Text Label 700  6350 0    50   ~ 0
@@ -1190,91 +1190,91 @@ Wire Wire Line
 	700  6350 1250 6350
 Wire Wire Line
 	700  6450 1250 6450
-Text Label 10150 900  0    50   ~ 0
+Text Label 10300 900  0    50   ~ 0
 D13_SCK
 Wire Wire Line
-	10150 900  10150 1150
+	10300 900  10300 1150
 Wire Wire Line
-	10150 1900 10150 2050
+	10300 1900 10300 2050
 $Comp
 L power:GND #PWR010
 U 1 1 5FAD24D7
-P 10150 2050
-F 0 "#PWR010" H 10150 1800 50  0001 C CNN
-F 1 "GND" H 10155 1877 50  0000 C CNN
-F 2 "" H 10150 2050 50  0001 C CNN
-F 3 "" H 10150 2050 50  0001 C CNN
-	1    10150 2050
+P 10300 2050
+F 0 "#PWR010" H 10300 1800 50  0001 C CNN
+F 1 "GND" H 10305 1877 50  0000 C CNN
+F 2 "" H 10300 2050 50  0001 C CNN
+F 3 "" H 10300 2050 50  0001 C CNN
+	1    10300 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 6350 6000 6350
-Connection ~ 5400 6350
+	6000 6350 6600 6350
+Connection ~ 6000 6350
 Wire Wire Line
-	5400 6200 5400 6350
+	6000 6200 6000 6350
 Wire Wire Line
-	5200 6350 5400 6350
+	5800 6350 6000 6350
 Wire Wire Line
-	4800 6350 4700 6350
+	5400 6350 5300 6350
 $Comp
 L power:GND #PWR036
 U 1 1 5FB88B03
-P 4700 6950
-F 0 "#PWR036" H 4700 6700 50  0001 C CNN
-F 1 "GND" H 4705 6777 50  0000 C CNN
-F 2 "" H 4700 6950 50  0001 C CNN
-F 3 "" H 4700 6950 50  0001 C CNN
-	1    4700 6950
+P 5300 6950
+F 0 "#PWR036" H 5300 6700 50  0001 C CNN
+F 1 "GND" H 5305 6777 50  0000 C CNN
+F 2 "" H 5300 6950 50  0001 C CNN
+F 3 "" H 5300 6950 50  0001 C CNN
+	1    5300 6950
 	1    0    0    -1  
 $EndComp
-Text Label 5600 6350 0    50   ~ 0
+Text Label 6200 6350 0    50   ~ 0
 RESET
 $Comp
 L power:+5V #PWR032
 U 1 1 5FB023CE
-P 5400 5750
-F 0 "#PWR032" H 5400 5600 50  0001 C CNN
-F 1 "+5V" H 5415 5923 50  0000 C CNN
-F 2 "" H 5400 5750 50  0001 C CNN
-F 3 "" H 5400 5750 50  0001 C CNN
-	1    5400 5750
+P 6000 5750
+F 0 "#PWR032" H 6000 5600 50  0001 C CNN
+F 1 "+5V" H 6015 5923 50  0000 C CNN
+F 2 "" H 6000 5750 50  0001 C CNN
+F 3 "" H 6000 5750 50  0001 C CNN
+	1    6000 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 5750 5400 5900
+	6000 5750 6000 5900
 $Comp
 L Device:R R7
 U 1 1 5FB023C6
-P 5400 6050
-F 0 "R7" H 5470 6096 50  0000 L CNN
-F 1 "R" H 5470 6005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5330 6050 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 5400 6050 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 5400 6050 50  0001 C CNN "DK_Detail_Page"
-F 5 "RNCP0805FTD1K00CT-ND" H 5400 6050 50  0001 C CNN "Digi-Key_PN"
-F 6 "RNCP0805FTD1K00" H 5400 6050 50  0001 C CNN "MPN"
-F 7 "Stackpole Electronics Inc" H 5400 6050 50  0001 C CNN "Manufacturer"
-	1    5400 6050
+P 6000 6050
+F 0 "R7" H 6070 6096 50  0000 L CNN
+F 1 "R" H 6070 6005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5930 6050 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 6000 6050 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 6000 6050 50  0001 C CNN "DK_Detail_Page"
+F 5 "RNCP0805FTD1K00CT-ND" H 6000 6050 50  0001 C CNN "Digi-Key_PN"
+F 6 "RNCP0805FTD1K00" H 6000 6050 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 6000 6050 50  0001 C CNN "Manufacturer"
+	1    6000 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Tactile-Switches:B3U-1000P S1
 U 1 1 5F91EFEE
-P 5000 6350
-F 0 "S1" H 5000 6647 60  0000 C CNN
-F 1 "B3U-1000P" H 5000 6541 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_SMD_B3U-1000P" H 5200 6550 60  0001 L CNN
-F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 5200 6650 60  0001 L CNN
-F 4 "SW1020CT-ND" H 5200 6750 60  0001 L CNN "Digi-Key_PN"
-F 5 "B3U-1000P" H 5200 6850 60  0001 L CNN "MPN"
-F 6 "Switches" H 5200 6950 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 5200 7050 60  0001 L CNN "Family"
-F 8 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 5200 7150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3U-1000P/1534338?s=N4IgTCBcDaIMoHUCMAGMKDCAVAtAOQBEQBdAXyA" H 5200 7250 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 12V" H 5200 7350 60  0001 L CNN "Description"
-F 11 "Omron Electronics Inc-EMC Div" H 5200 7450 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5200 7550 60  0001 L CNN "Status"
-	1    5000 6350
+P 5600 6350
+F 0 "S1" H 5600 6647 60  0000 C CNN
+F 1 "B3U-1000P" H 5600 6541 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_B3U-1000P" H 5800 6550 60  0001 L CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 5800 6650 60  0001 L CNN
+F 4 "SW1020CT-ND" H 5800 6750 60  0001 L CNN "Digi-Key_PN"
+F 5 "B3U-1000P" H 5800 6850 60  0001 L CNN "MPN"
+F 6 "Switches" H 5800 6950 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 5800 7050 60  0001 L CNN "Family"
+F 8 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 5800 7150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3U-1000P/1534338?s=N4IgTCBcDaIMoHUCMAGMKDCAVAtAOQBEQBdAXyA" H 5800 7250 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 12V" H 5800 7350 60  0001 L CNN "Description"
+F 11 "Omron Electronics Inc-EMC Div" H 5800 7450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5800 7550 60  0001 L CNN "Status"
+	1    5600 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1286,7 +1286,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 6450 2050 6450
 Wire Wire Line
-	4700 6350 4700 6950
+	5300 6350 5300 6950
 Wire Wire Line
 	2400 1000 2400 1100
 Wire Wire Line
@@ -1316,87 +1316,87 @@ $EndComp
 $Comp
 L power:+5V #PWR017
 U 1 1 5FD84F3F
-P 10400 3500
-F 0 "#PWR017" H 10400 3350 50  0001 C CNN
-F 1 "+5V" H 10415 3673 50  0000 C CNN
-F 2 "" H 10400 3500 50  0001 C CNN
-F 3 "" H 10400 3500 50  0001 C CNN
-	1    10400 3500
+P 10550 3500
+F 0 "#PWR017" H 10550 3350 50  0001 C CNN
+F 1 "+5V" H 10565 3673 50  0000 C CNN
+F 2 "" H 10550 3500 50  0001 C CNN
+F 3 "" H 10550 3500 50  0001 C CNN
+	1    10550 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR018
 U 1 1 5FD84F45
-P 10700 3500
-F 0 "#PWR018" H 10700 3350 50  0001 C CNN
-F 1 "+3V3" H 10715 3673 50  0000 C CNN
-F 2 "" H 10700 3500 50  0001 C CNN
-F 3 "" H 10700 3500 50  0001 C CNN
-	1    10700 3500
+P 10850 3500
+F 0 "#PWR018" H 10850 3350 50  0001 C CNN
+F 1 "+3V3" H 10865 3673 50  0000 C CNN
+F 2 "" H 10850 3500 50  0001 C CNN
+F 3 "" H 10850 3500 50  0001 C CNN
+	1    10850 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+VDC #PWR020
 U 1 1 5FD92186
-P 10100 3600
-F 0 "#PWR020" H 10100 3500 50  0001 C CNN
-F 1 "+VDC" H 10100 3875 50  0000 C CNN
-F 2 "" H 10100 3600 50  0001 C CNN
-F 3 "" H 10100 3600 50  0001 C CNN
-	1    10100 3600
+P 10250 3600
+F 0 "#PWR020" H 10250 3500 50  0001 C CNN
+F 1 "+VDC" H 10250 3875 50  0000 C CNN
+F 2 "" H 10250 3600 50  0001 C CNN
+F 3 "" H 10250 3600 50  0001 C CNN
+	1    10250 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10100 3600 10100 3700
+	10250 3600 10250 3700
 Wire Wire Line
-	7250 4000 7250 4400
+	7750 4000 7750 4400
 Wire Wire Line
-	9500 4000 10400 4000
+	9650 4000 10550 4000
 $Comp
 L power:GND #PWR021
 U 1 1 5FDF820D
-P 10250 3850
-F 0 "#PWR021" H 10250 3600 50  0001 C CNN
-F 1 "GND" H 10250 3950 50  0000 C CNN
-F 2 "" H 10250 3850 50  0001 C CNN
-F 3 "" H 10250 3850 50  0001 C CNN
-	1    10250 3850
+P 10400 3850
+F 0 "#PWR021" H 10400 3600 50  0001 C CNN
+F 1 "GND" H 10400 3950 50  0000 C CNN
+F 2 "" H 10400 3850 50  0001 C CNN
+F 3 "" H 10400 3850 50  0001 C CNN
+	1    10400 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10250 3800 10250 3850
+	10400 3800 10400 3850
 Wire Wire Line
-	9500 3800 10250 3800
+	9650 3800 10400 3800
 Wire Wire Line
-	9500 3700 10100 3700
+	9650 3700 10250 3700
 Wire Wire Line
-	10400 4000 10400 3500
+	10550 4000 10550 3500
 Wire Wire Line
-	9500 5000 10700 5000
+	9650 5000 10850 5000
 Wire Wire Line
-	10700 3500 10700 5000
-Text Label 5550 3800 0    50   ~ 0
+	10850 3500 10850 5000
+Text Label 6200 3800 0    50   ~ 0
 AREF
-Text Label 7600 4000 0    50   ~ 0
+Text Label 8100 4000 0    50   ~ 0
 GND
-Text Label 9650 5000 0    50   ~ 0
+Text Label 9800 5000 0    50   ~ 0
 3V3
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5FEDC1C7
-P 3250 6550
-F 0 "#FLG02" H 3250 6625 50  0001 C CNN
-F 1 "PWR_FLAG" H 3250 6723 50  0000 C CNN
-F 2 "" H 3250 6550 50  0001 C CNN
-F 3 "~" H 3250 6550 50  0001 C CNN
-	1    3250 6550
+P 3600 6550
+F 0 "#FLG02" H 3600 6625 50  0001 C CNN
+F 1 "PWR_FLAG" H 3600 6723 50  0000 C CNN
+F 2 "" H 3600 6550 50  0001 C CNN
+F 3 "~" H 3600 6550 50  0001 C CNN
+	1    3600 6550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 6750 3250 6750
+	3800 6750 3600 6750
 Wire Wire Line
-	3250 6550 3250 6750
-Connection ~ 3450 6750
+	3600 6550 3600 6750
+Connection ~ 3800 6750
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5FF0517C
@@ -1432,45 +1432,88 @@ F 7 "WCH(Jiangsu Qin Heng)" H 2650 1800 50  0001 C CNN "Manufacturer"
 $EndComp
 Text Notes 1400 5400 0    50   ~ 0
 ICSP
-Wire Notes Line
-	4250 3000 650  3000
 Text Notes 700  750  0    50   ~ 0
 USB\n
-Wire Notes Line
-	4350 700  4350 7550
-Wire Notes Line
-	4250 5050 650  5050
 Text Notes 1350 3200 0    50   ~ 0
 Regulador 5V
-Text Notes 2850 3200 0    50   ~ 0
+Text Notes 3550 3200 0    50   ~ 0
 Filtrados CC
 Wire Notes Line
 	2600 5200 2600 7350
 Wire Notes Line
-	2950 6150 4050 6150
-Text Notes 4700 5400 0    50   ~ 0
+	3300 6150 4400 6150
+Text Notes 5300 5400 0    50   ~ 0
 BOTON DE RESET
 $Comp
 L power:+5V #PWR05
 U 1 1 5FC2C318
-P 7900 1000
-F 0 "#PWR05" H 7900 850 50  0001 C CNN
-F 1 "+5V" H 7915 1173 50  0000 C CNN
-F 2 "" H 7900 1000 50  0001 C CNN
-F 3 "" H 7900 1000 50  0001 C CNN
-	1    7900 1000
+P 8050 1000
+F 0 "#PWR05" H 8050 850 50  0001 C CNN
+F 1 "+5V" H 8065 1173 50  0000 C CNN
+F 2 "" H 8050 1000 50  0001 C CNN
+F 3 "" H 8050 1000 50  0001 C CNN
+	1    8050 1000
 	1    0    0    -1  
 $EndComp
-Text Notes 5300 750  0    50   ~ 0
+Text Notes 5950 750  0    50   ~ 0
 MCU
-Text Notes 8600 2450 0    50   ~ 0
+Text Notes 8750 2450 0    50   ~ 0
 TX
-Text Notes 7850 2450 0    50   ~ 0
+Text Notes 8000 2450 0    50   ~ 0
 RX
-Text Notes 9200 2450 0    50   ~ 0
+Text Notes 9350 2450 0    50   ~ 0
 ENCENDIDO
-Text Notes 10000 2450 0    50   ~ 0
+Text Notes 10150 2450 0    50   ~ 0
 USUARIO
-Text Notes 8350 5500 0    50   ~ 0
+$Comp
+L Device:C C7
+U 1 1 5F975844
+P 4500 3950
+F 0 "C7" H 4615 3996 50  0000 L CNN
+F 1 "100nF" H 4615 3905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4538 3800 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL21B104KBFXPJ.do" H 4500 3950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBFXPJE/11487741" H 4500 3950 50  0001 C CNN "DK_Detail_Page"
+F 5 "1276-CL21B104KBFXPJECT-ND" H 4500 3950 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL21B104KBFXPJE" H 4500 3950 50  0001 C CNN "MPN"
+F 7 "SAMSUNG ELECTRO-MECHANICS" H 4500 3950 50  0001 C CNN "Manufacturer"
+	1    4500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR038
+U 1 1 5F97584C
+P 4500 4400
+F 0 "#PWR038" H 4500 4150 50  0001 C CNN
+F 1 "GND" H 4505 4227 50  0000 C CNN
+F 2 "" H 4500 4400 50  0001 C CNN
+F 3 "" H 4500 4400 50  0001 C CNN
+	1    4500 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4100 4500 4400
+$Comp
+L power:+3V3 #PWR037
+U 1 1 5F99BE32
+P 4500 3450
+F 0 "#PWR037" H 4500 3300 50  0001 C CNN
+F 1 "+3V3" H 4515 3623 50  0000 C CNN
+F 2 "" H 4500 3450 50  0001 C CNN
+F 3 "" H 4500 3450 50  0001 C CNN
+	1    4500 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3450 4500 3800
+Wire Notes Line
+	5000 4950 5000 650 
+Wire Notes Line
+	650  3000 4900 3000
+Wire Notes Line
+	650  5050 4900 5050
+Wire Notes Line
+	5000 5200 5000 7350
+Text Notes 8700 5400 0    50   ~ 0
 TIRA DE PINES A PROTO\n
 $EndSCHEMATC
