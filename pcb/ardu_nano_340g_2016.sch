@@ -19,7 +19,7 @@ U 1 1 5F862911
 P 1100 1700
 F 0 "J1" H 1157 2167 50  0000 C CNN
 F 1 "USB_B_Mini" H 1157 2076 50  0000 C CNN
-F 2 "digikey-footprints:USB_Mini_B_Female_UX60-MB-5ST" H 1250 1650 50  0001 C CNN
+F 2 "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal" H 1250 1650 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UX%20Series.pdf" H 1250 1650 50  0001 C CNN
 F 4 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UX%20Series.pdf" H 1100 1700 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/UX60-MB-5ST/597535?s=N4IgTCBcDaIBJgJwFZEGEAqBaAcgERAF0BfIA" H 1100 1700 50  0001 C CNN "DK_Detail_Page"
@@ -576,7 +576,7 @@ U 1 1 5F978133
 P 7100 6350
 F 0 "H1" H 7200 6396 50  0000 L CNN
 F 1 "MountingHole" H 7200 6305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 7100 6350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580" H 7100 6350 50  0001 C CNN
 F 3 "~" H 7100 6350 50  0001 C CNN
 	1    7100 6350
 	1    0    0    -1  
@@ -587,7 +587,7 @@ U 1 1 5F979E7C
 P 7900 6350
 F 0 "H2" H 8000 6396 50  0000 L CNN
 F 1 "MountingHole" H 8000 6305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 7900 6350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580" H 7900 6350 50  0001 C CNN
 F 3 "~" H 7900 6350 50  0001 C CNN
 	1    7900 6350
 	1    0    0    -1  
@@ -598,7 +598,7 @@ U 1 1 5F97C1D6
 P 8700 6350
 F 0 "H3" H 8800 6396 50  0000 L CNN
 F 1 "MountingHole" H 8800 6305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 8700 6350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580" H 8700 6350 50  0001 C CNN
 F 3 "~" H 8700 6350 50  0001 C CNN
 	1    8700 6350
 	1    0    0    -1  
@@ -609,7 +609,7 @@ U 1 1 5F97E5FB
 P 9500 6350
 F 0 "H4" H 9600 6396 50  0000 L CNN
 F 1 "MountingHole" H 9600 6305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 9500 6350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580" H 9500 6350 50  0001 C CNN
 F 3 "~" H 9500 6350 50  0001 C CNN
 	1    9500 6350
 	1    0    0    -1  
