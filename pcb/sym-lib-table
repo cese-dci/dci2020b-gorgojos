@@ -151,4 +151,5 @@
   (lib (name dk_Addressable-Specialty)(type Legacy)(uri /home/juan/Documentos/sinc/Cursos/PCB/repo_tp/digikey-kicad-library/digikey-symbols/dk_Addressable-Specialty.lib)(options "")(descr ""))
   (lib (name ciaa-z3r0)(type Legacy)(uri /home/juan/Documentos/sinc/Cursos/PCB/repo_tp/otros/CIAA-Z3R0-master/ciaa-z3r0.lib)(options "")(descr ""))
   (lib (name JEC_Interface_USB)(type Legacy)(uri ${KIPRJMOD}/JEC_Interface_USB.lib)(options "")(descr ""))
+  (lib (name ardu_nano_340g_2016-rescue)(type Legacy)(uri ${KIPRJMOD}/ardu_nano_340g_2016-rescue.lib)(options "")(descr ""))
 )
