@@ -526,7 +526,7 @@ L Device:R R5
 U 1 1 5F8FC122
 P 3350 1400
 F 0 "R5" V 3143 1400 50  0000 C CNN
-F 1 "R" V 3234 1400 50  0000 C CNN
+F 1 "1k" V 3234 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3280 1400 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3350 1400 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 3350 1400 50  0001 C CNN "DK_Detail_Page"
@@ -541,7 +541,7 @@ L Device:R R6
 U 1 1 5F8FE2B3
 P 3350 1500
 F 0 "R6" V 3143 1500 50  0000 C CNN
-F 1 "R" V 3234 1500 50  0000 C CNN
+F 1 "1k" V 3234 1500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3280 1500 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3350 1500 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 3350 1500 50  0001 C CNN "DK_Detail_Page"
@@ -737,7 +737,7 @@ L Device:R R1
 U 1 1 5FC2C312
 P 8050 1300
 F 0 "R1" H 8120 1346 50  0000 L CNN
-F 1 "R" H 8120 1255 50  0000 L CNN
+F 1 "1k" H 8120 1255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7980 1300 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 8050 1300 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 8050 1300 50  0001 C CNN "DK_Detail_Page"
@@ -771,7 +771,7 @@ L Device:R R2
 U 1 1 5FC3579F
 P 8800 1300
 F 0 "R2" H 8870 1346 50  0000 L CNN
-F 1 "R" H 8870 1255 50  0000 L CNN
+F 1 "1k" H 8870 1255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8730 1300 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 8800 1300 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 8800 1300 50  0001 C CNN "DK_Detail_Page"
@@ -818,7 +818,7 @@ L Device:R R3
 U 1 1 5F87915A
 P 9550 1300
 F 0 "R3" H 9620 1346 50  0000 L CNN
-F 1 "R" H 9620 1255 50  0000 L CNN
+F 1 "1k" H 9620 1255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9480 1300 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 9550 1300 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 9550 1300 50  0001 C CNN "DK_Detail_Page"
@@ -861,7 +861,7 @@ L Device:R R4
 U 1 1 5FC6E594
 P 10300 1300
 F 0 "R4" H 10370 1346 50  0000 L CNN
-F 1 "R" H 10370 1255 50  0000 L CNN
+F 1 "1k" H 10370 1255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10230 1300 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 10300 1300 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 10300 1300 50  0001 C CNN "DK_Detail_Page"
@@ -1247,7 +1247,7 @@ L Device:R R7
 U 1 1 5FB023C6
 P 6000 6050
 F 0 "R7" H 6070 6096 50  0000 L CNN
-F 1 "R" H 6070 6005 50  0000 L CNN
+F 1 "10k" H 6070 6005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5930 6050 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 6000 6050 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229" H 6000 6050 50  0001 C CNN "DK_Detail_Page"
