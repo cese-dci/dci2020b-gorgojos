@@ -293,7 +293,7 @@ U 1 1 5F873287
 P 1850 2100
 F 0 "Y2" V 2100 1900 50  0000 L CNN
 F 1 "12Mhz Resonator" V 2200 1900 50  0000 L CNN
-F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering" H 1825 2100 50  0001 C CNN
+F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm" H 1825 2100 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdetail?partno=CSTNE12M0G550000R0" H 1825 2100 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/murata-electronics/CSTNE12M0G550000R0/490-17943-1-ND/8747751" H 1850 2100 50  0001 C CNN "DK_Detail_Page"
 F 5 "490-17943-1-ND" H 1850 2100 50  0001 C CNN "Digi-Key_PN"
@@ -460,7 +460,7 @@ U 1 1 5F90EEE1
 P 7000 1650
 F 0 "Y1" V 7250 1450 50  0000 L CNN
 F 1 "16MHz Resonator" V 7350 1450 50  0000 L CNN
-F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering" H 6975 1650 50  0001 C CNN
+F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm" H 6975 1650 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdetail?cate=cgsubResonators&partno=CSTNE16M0V530000R0" H 6975 1650 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/murata-electronics/CSTNE16M0V530000R0/490-17948-1-ND/8747756" H 7000 1650 50  0001 C CNN "DK_Detail_Page"
 F 5 "490-17948-1-ND" H 7000 1650 50  0001 C CNN "Digi-Key_PN"
@@ -576,7 +576,7 @@ U 1 1 5F978133
 P 7100 6350
 F 0 "H1" H 7200 6396 50  0000 L CNN
 F 1 "MountingHole" H 7200 6305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580" H 7100 6350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 7100 6350 50  0001 C CNN
 F 3 "~" H 7100 6350 50  0001 C CNN
 	1    7100 6350
 	1    0    0    -1  
@@ -587,7 +587,7 @@ U 1 1 5F979E7C
 P 7900 6350
 F 0 "H2" H 8000 6396 50  0000 L CNN
 F 1 "MountingHole" H 8000 6305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580" H 7900 6350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 7900 6350 50  0001 C CNN
 F 3 "~" H 7900 6350 50  0001 C CNN
 	1    7900 6350
 	1    0    0    -1  
@@ -1516,4 +1516,49 @@ Wire Notes Line
 	5000 5200 5000 7350
 Text Notes 8700 5400 0    50   ~ 0
 TIRA DE PINES A PROTO\n
+$Comp
+L Device:C C8
+U 1 1 5F8D5411
+P 4600 1700
+F 0 "C8" H 4715 1746 50  0000 L CNN
+F 1 "100nF" H 4715 1655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4638 1550 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL21B104KBFXPJ.do" H 4600 1700 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBFXPJE/11487741" H 4600 1700 50  0001 C CNN "DK_Detail_Page"
+F 5 "1276-CL21B104KBFXPJECT-ND" H 4600 1700 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL21B104KBFXPJE" H 4600 1700 50  0001 C CNN "MPN"
+F 7 "SAMSUNG ELECTRO-MECHANICS" H 4600 1700 50  0001 C CNN "Manufacturer"
+	1    4600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR040
+U 1 1 5F8D5417
+P 4600 2500
+F 0 "#PWR040" H 4600 2250 50  0001 C CNN
+F 1 "GND" H 4605 2327 50  0000 C CNN
+F 2 "" H 4600 2500 50  0001 C CNN
+F 3 "" H 4600 2500 50  0001 C CNN
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR039
+U 1 1 5F8F61D2
+P 4600 1000
+F 0 "#PWR039" H 4600 850 50  0001 C CNN
+F 1 "+5V" H 4615 1173 50  0000 C CNN
+F 2 "" H 4600 1000 50  0001 C CNN
+F 3 "" H 4600 1000 50  0001 C CNN
+	1    4600 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1000 4600 1550
+Wire Wire Line
+	4600 1850 4600 2500
+Wire Notes Line
+	4200 650  4200 2850
+Text Notes 4250 750  0    50   ~ 0
+Desacople IC USB
 $EndSCHEMATC
