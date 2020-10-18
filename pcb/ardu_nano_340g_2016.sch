@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ardu_nano_340g_2016"
-Date "2020-10-14"
-Rev "3.1"
+Date "2020-10-18"
+Rev "2.3"
 Comp "Autor: Juan Esteban Carrique <jecarrique@sinc.unl.edu.ar>"
 Comment1 "Revisor par: Alejandro Gorrin"
 Comment2 "Revisor Docente: Diego Brengi"
 Comment3 "Licencia: CC BY-NC-SA"
-Comment4 "V2.2 Se agregó capacitor desacople IC USB y se redujo huella resonadores"
+Comment4 "V2.3 Se agregó capacitor desacople MCU"
 $EndDescr
 $Comp
 L ardu_nano_340g_2016-rescue:USB_B_Mini-Connector J1
@@ -1562,10 +1562,10 @@ Wire Wire Line
 Wire Wire Line
 	6650 1700 5950 1700
 $Comp
-L Device:C C?
+L Device:C C9
 U 1 1 5F9409DC
 P 7600 1550
-F 0 "C?" H 7715 1596 50  0000 L CNN
+F 0 "C9" H 7715 1596 50  0000 L CNN
 F 1 "100nF" H 7715 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7638 1400 50  0001 C CNN
 F 3 "http://product.samsungsem.com/mlcc/CL21B104KBFXPJ.do" H 7600 1550 50  0001 C CNN
@@ -1577,10 +1577,10 @@ F 7 "SAMSUNG ELECTRO-MECHANICS" H 7600 1550 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR042
 U 1 1 5F9409E2
 P 7600 2050
-F 0 "#PWR?" H 7600 1800 50  0001 C CNN
+F 0 "#PWR042" H 7600 1800 50  0001 C CNN
 F 1 "GND" H 7605 1877 50  0000 C CNN
 F 2 "" H 7600 2050 50  0001 C CNN
 F 3 "" H 7600 2050 50  0001 C CNN
@@ -1588,10 +1588,10 @@ F 3 "" H 7600 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR041
 U 1 1 5F9409E8
 P 7600 1000
-F 0 "#PWR?" H 7600 850 50  0001 C CNN
+F 0 "#PWR041" H 7600 850 50  0001 C CNN
 F 1 "+5V" H 7615 1173 50  0000 C CNN
 F 2 "" H 7600 1000 50  0001 C CNN
 F 3 "" H 7600 1000 50  0001 C CNN
