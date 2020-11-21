@@ -6,12 +6,12 @@ encoding utf-8
 Sheet 1 1
 Title "ardu_nano_340g_2016"
 Date "2020-10-18"
-Rev "2.3"
+Rev "2.4"
 Comp "Autor: Juan Esteban Carrique <jecarrique@sinc.unl.edu.ar>"
 Comment1 "Revisor par: Alejandro Gorrin"
 Comment2 "Revisor Docente: Diego Brengi"
 Comment3 "Licencia: CC BY-NC-SA"
-Comment4 "V2.3 Se agregó capacitor desacople MCU"
+Comment4 "V2.4 Se agregan vistas 3D y valores faltantes"
 $EndDescr
 $Comp
 L ardu_nano_340g_2016-rescue:USB_B_Mini-Connector J1
@@ -19,7 +19,7 @@ U 1 1 5F862911
 P 1100 1700
 F 0 "J1" H 1157 2167 50  0000 C CNN
 F 1 "USB_B_Mini" H 1157 2076 50  0000 C CNN
-F 2 "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal" H 1250 1650 50  0001 C CNN
+F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 1250 1650 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UX%20Series.pdf" H 1250 1650 50  0001 C CNN
 F 4 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UX%20Series.pdf" H 1100 1700 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/UX60-MB-5ST/597535?s=N4IgTCBcDaIBJgJwFZEGEAqBaAcgERAF0BfIA" H 1100 1700 50  0001 C CNN "DK_Detail_Page"
@@ -103,7 +103,7 @@ L Device:D_Schottky D5
 U 1 1 5F86F8A0
 P 3850 5850
 F 0 "D5" H 3850 5633 50  0000 C CNN
-F 1 "D_Schottky" H 3850 5724 50  0000 C CNN
+F 1 "SD101CWS" H 3850 5724 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3850 5850 50  0001 C CNN
 F 3 "https://www.vishay.com/ppg?85680" H 3850 5850 50  0001 C CNN
 F 4 "https://lcsc.com/product-detail/Others_Vishay-Intertech_SD101CWS-HE3-08_Vishay-Intertech-SD101CWS-HE3-08_C241955.html" H 3850 5850 50  0001 C CNN "DK_Detail_Page"
