@@ -1795,7 +1795,7 @@
   (gr_text "Diseñado en 2020" (at 123.698 108.966 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Minimos (Mayer 8 mils):\nGrillas 0,63mm, 0.254mm, 0.0508mm\nPistas: 0.23mm, 0.25mm, 0.5mm\nVia: 1.5mm / 0.8mm\nMargen: 0.2mm\nDist. a borde: 0.3mm\nTerminación: HASL" (at 147.32 99.695) (layer Dwgs.User)
+  (gr_text "Minimos (Mayer 8 mils):\nGrillas 0,63mm, 0.254mm, 0.0508mm\nPistas: 0.23mm, 0.25mm, 0.5mm\nVia: 1.5mm / 0.8mm\nMargen: 0.2mm\nDist. a borde: 0.3mm\nTerminación: HASL\nMétodo de fabricación: casero" (at 147.32 99.695) (layer Dwgs.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_line (start 119.634 123.698) (end 119.888 123.698) (layer Edge.Cuts) (width 0.05) (tstamp 5FB87175))
